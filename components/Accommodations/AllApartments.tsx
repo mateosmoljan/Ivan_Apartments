@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import PropertyCard from "./PropertyCard";
 import Slider from "react-slick";
@@ -26,7 +28,7 @@ function AllApartments() {
   const AccommodationsData = getAccommodationData(localeActive);
 
   return (
-    <div>
+    <div className="">
       <Slider {...settings}>
         <div>
           <PropertyCard

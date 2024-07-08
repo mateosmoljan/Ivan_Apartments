@@ -21,7 +21,7 @@ type PropertyCardProps = {
 
 function PropertyCard({ props }: PropertyCardProps) {
   return (
-    <div className=" md:w-3/5 lg:w-1/2 shadow-md hover:shadow-xl custom_border rounded-md z-10 w-full overflow-hidden">
+    <div className="mx-auto md:w-3/5 lg:w-1/2 shadow-md hover:shadow-xl custom_border rounded-md z-10 w-full overflow-hidden">
       <Swiper
         loop={true}
         spaceBetween={0}
