@@ -21,7 +21,7 @@ function HolidayHome() {
   return (
     <FormControl fullWidth>
       <InputLabel id="demo-simple-select-label" className="!font-Bold">
-        Holiday Home
+        Apartment
       </InputLabel>
       <Select
         required
@@ -36,7 +36,16 @@ function HolidayHome() {
         placeholder="Holiday home"
       >
         <MenuItem value={"Villa Relax"} className="!pl-4">
-          Villa Relax
+          Apartment Ludwig
+        </MenuItem>
+        <MenuItem value={"Villa Relax"} className="!pl-4">
+          Apartment Benedikta
+        </MenuItem>
+        <MenuItem value={"Villa Relax"} className="!pl-4">
+          Room Lota
+        </MenuItem>
+        <MenuItem value={"Villa Relax"} className="!pl-4">
+          Room Ruta
         </MenuItem>
       </Select>
     </FormControl>

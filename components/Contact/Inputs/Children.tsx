@@ -44,13 +44,6 @@ function Children() {
         <MenuItem value={5}>4</MenuItem>
         <MenuItem value={6}>5</MenuItem>
         <MenuItem value={7}>6</MenuItem>
-        <MenuItem value={8}>7</MenuItem>
-        <MenuItem value={9}>8</MenuItem>
-        <MenuItem value={10}>9</MenuItem>
-        <MenuItem value={11}>10</MenuItem>
-        <MenuItem value={12}>11</MenuItem>
-        <MenuItem value={13}>12</MenuItem>
-        <MenuItem value={14}>13</MenuItem>
       </Select>
     </FormControl>
   );
