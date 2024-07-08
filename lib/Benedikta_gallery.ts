@@ -12,8 +12,8 @@ import image7 from "@/public/assets/images/Benedikta/7.jpg";
 // import image10 from "@/public/assets/images/Benedikta/10.jpg";
 // import image11 from "@/public/assets/images/Benedikta/11.jpg";
 // import image12 from "@/public/assets/images/Benedikta/12.jpg";
-import image13 from "@/public/assets/images/Benedikta/13.jpg";
-import image14 from "@/public/assets/images/Benedikta/14.jpg";
+// import image13 from "@/public/assets/images/Benedikta/13.jpg";
+// import image14 from "@/public/assets/images/Benedikta/14.jpg";
 import image15 from "@/public/assets/images/Benedikta/15.jpg";
 import image16 from "@/public/assets/images/Benedikta/16.jpg";
 import image17 from "@/public/assets/images/Benedikta/17.jpg";
@@ -58,8 +58,8 @@ export const BenediktaGalleryLib: DataObject = {
     // { src: image10, alt: "Ludwig Zagreb Center Apartment" },
     // { src: image11, alt: "Ludwig Zagreb Center Apartment" },
     // { src: image12, alt: "Ludwig Zagreb Center Apartment" },
-    { src: image13, alt: "Ludwig Zagreb Center Apartment" },
-    { src: image14, alt: "Ludwig Zagreb Center Apartment" },
+    // { src: image13, alt: "Ludwig Zagreb Center Apartment" },
+    // { src: image14, alt: "Ludwig Zagreb Center Apartment" },
     { src: image15, alt: "Ludwig Zagreb Center Apartment" },
     { src: image16, alt: "Ludwig Zagreb Center Apartment" },
     { src: image17, alt: "Ludwig Zagreb Center Apartment" },
