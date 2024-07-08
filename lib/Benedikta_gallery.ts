@@ -7,11 +7,11 @@ import image4 from "@/public/assets/images/Benedikta/4.jpg";
 import image5 from "@/public/assets/images/Benedikta/5.jpg";
 import image6 from "@/public/assets/images/Benedikta/6.jpg";
 import image7 from "@/public/assets/images/Benedikta/7.jpg";
-import image8 from "@/public/assets/images/Benedikta/8.jpg";
-import image9 from "@/public/assets/images/Benedikta/9.jpg";
-import image10 from "@/public/assets/images/Benedikta/10.jpg";
-import image11 from "@/public/assets/images/Benedikta/11.jpg";
-import image12 from "@/public/assets/images/Benedikta/12.jpg";
+// import image8 from "@/public/assets/images/Benedikta/8.jpg";
+// import image9 from "@/public/assets/images/Benedikta/9.jpg";
+// import image10 from "@/public/assets/images/Benedikta/10.jpg";
+// import image11 from "@/public/assets/images/Benedikta/11.jpg";
+// import image12 from "@/public/assets/images/Benedikta/12.jpg";
 import image13 from "@/public/assets/images/Benedikta/13.jpg";
 import image14 from "@/public/assets/images/Benedikta/14.jpg";
 import image15 from "@/public/assets/images/Benedikta/15.jpg";
@@ -53,11 +53,11 @@ export const BenediktaGalleryLib: DataObject = {
     { src: image5, alt: "Ludwig Zagreb Center Apartment" },
     { src: image6, alt: "Ludwig Zagreb Center Apartment" },
     { src: image7, alt: "Ludwig Zagreb Center Apartment" },
-    { src: image8, alt: "Ludwig Zagreb Center Apartment" },
-    { src: image9, alt: "Ludwig Zagreb Center Apartment" },
-    { src: image10, alt: "Ludwig Zagreb Center Apartment" },
-    { src: image11, alt: "Ludwig Zagreb Center Apartment" },
-    { src: image12, alt: "Ludwig Zagreb Center Apartment" },
+    // { src: image8, alt: "Ludwig Zagreb Center Apartment" },
+    // { src: image9, alt: "Ludwig Zagreb Center Apartment" },
+    // { src: image10, alt: "Ludwig Zagreb Center Apartment" },
+    // { src: image11, alt: "Ludwig Zagreb Center Apartment" },
+    // { src: image12, alt: "Ludwig Zagreb Center Apartment" },
     { src: image13, alt: "Ludwig Zagreb Center Apartment" },
     { src: image14, alt: "Ludwig Zagreb Center Apartment" },
     { src: image15, alt: "Ludwig Zagreb Center Apartment" },
