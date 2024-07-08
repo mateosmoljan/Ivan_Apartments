@@ -3,9 +3,9 @@ import Image from "next/image";
 import { createContext, useContext, useState } from "react";
 import Gallery from "./Gallery";
 import { MdPhotoCamera } from "react-icons/md";
-import { PropertyGalleryLib } from "@/lib/Ludwig_gallery";
 import { useLocale } from "next-intl";
 import { getTitleData } from "@/lib/title";
+import { DataObject } from "@/lib/Ludwig_gallery";
 
 export type AppContextType = {
   openIndexPropertyGallery: boolean;
@@ -18,7 +18,14 @@ export const AppContext = createContext<AppContextType>({
 });
 
 export const usePropertyGalleryContext = () => useContext(AppContext);
-function ShowcaseGallery() {
+
+type Props = {
+  property_gallery: DataObject;
+  subtitle: string;
+  title: string;
+};
+
+function ShowcaseGallery({ property_gallery, subtitle, title }: Props) {
   const [openIndexPropertyGallery, setOpenIndexPropertyGallery] =
     useState<boolean>(false);
   const [activeIndex, setActiveIndex] = useState<number>(-1);
@@ -36,32 +43,32 @@ function ShowcaseGallery() {
       <div className="container py-10">
         <div className="w-6xl flex flex-col gap-3 pb-10">
           <h2 className="text-pink font-semibold uppercase tracking-widest">
-            Villa Relax
+            {subtitle}
           </h2>
           <h1 className="font-bold text-2xl sm:text-3xl text-dark_blue_black">
-            Villa Relax
+            {title}
           </h1>
         </div>
         <AppContext.Provider
           value={{ openIndexPropertyGallery, setOpenIndexPropertyGallery }}
         >
           <div className="w-full flex flex-col sm:flex-row gap-3 sm:h-96 ">
-            {PropertyGalleryLib.images.length > 0 && (
+            {property_gallery.images.length > 0 && (
               <div className=" rounded-md sm:w-1/2 w-full">
                 <Image
-                  src={PropertyGalleryLib.images[0].src}
-                  alt={PropertyGalleryLib.images[0].alt}
+                  src={property_gallery.images[0].src}
+                  alt={property_gallery.images[0].alt}
                   placeholder="blur"
                   className="cursor-pointer object-cover rounded-md block w-full h-full hover:opacity-90"
                   onClick={() => handleImageClick(0)}
                 />
               </div>
             )}
-            <div className="grid grid-cols-2 sm:w-1/2 w-full gap-3">
-              {PropertyGalleryLib.images.slice(1, 5).map((image, index) => (
+            <div className="grid grid-cols-2 sm:w-1/2 w-full h-full gap-3">
+              {property_gallery.images.slice(1, 5).map((image, index) => (
                 <div
                   key={index}
-                  className="w-full h-full rounded-md flex relative"
+                  className="w-full h-full overflow-hidden rounded-md flex relative"
                 >
                   <Image
                     src={image.src}
@@ -88,7 +95,7 @@ function ShowcaseGallery() {
 
           {openIndexPropertyGallery && (
             <Gallery
-              library={PropertyGalleryLib.images}
+              library={property_gallery.images}
               initIndex={activeIndex}
             />
           )}

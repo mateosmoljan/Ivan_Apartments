@@ -92,7 +92,7 @@ function Pricelist() {
             <HowToReserve />
           </div>
         </div>
-        <div className="mb-36">
+        <div className="mb-24">
           <SendMessage />
         </div>
       </div>
