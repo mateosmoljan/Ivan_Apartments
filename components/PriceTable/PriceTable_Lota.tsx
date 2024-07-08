@@ -18,13 +18,13 @@ function createData(
 }
 
 const rows = [
-  createData("15.01. - 15.03.", 200, 4, 4),
-  createData("15.03. - 01.05.", 220, 4, 4),
-  createData("01.05. - 15.06.", 240, 4, 4),
-  createData("15.06. - 15.09.", 240, 4, 4),
-  createData("15.09. - 01.11.", 240, 4, 4),
-  createData("01.11. - 01.12.", 220, 4, 4),
-  createData("01.12. - 15.01.", 240, 4, 4),
+  createData("15.01. - 15.03.", 200, 2, 4),
+  createData("15.03. - 01.05.", 220, 2, 4),
+  createData("01.05. - 15.06.", 240, 2, 4),
+  createData("15.06. - 15.09.", 240, 2, 4),
+  createData("15.09. - 01.11.", 240, 2, 4),
+  createData("01.11. - 01.12.", 220, 2, 4),
+  createData("01.12. - 15.01.", 240, 2, 4),
 ];
 
 export default function PriceTable_Lota() {

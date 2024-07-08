@@ -18,13 +18,13 @@ function createData(
 }
 
 const rows = [
-  createData("15.01. - 15.03.", 300, 4, 4),
-  createData("15.03. - 01.05.", 340, 4, 4),
-  createData("01.05. - 15.06.", 400, 4, 4),
-  createData("15.06. - 15.09.", 520, 4, 4),
-  createData("15.09. - 01.11.", 400, 4, 4),
-  createData("01.11. - 01.12.", 320, 4, 4),
-  createData("01.12. - 15.01.", 520, 4, 4),
+  createData("15.01. - 15.03.", 300, 2, 4),
+  createData("15.03. - 01.05.", 340, 2, 4),
+  createData("01.05. - 15.06.", 400, 2, 4),
+  createData("15.06. - 15.09.", 520, 2, 4),
+  createData("15.09. - 01.11.", 400, 2, 4),
+  createData("01.11. - 01.12.", 320, 2, 4),
+  createData("01.12. - 15.01.", 520, 2, 4),
 ];
 
 export default function PriceTable_Ludwig() {

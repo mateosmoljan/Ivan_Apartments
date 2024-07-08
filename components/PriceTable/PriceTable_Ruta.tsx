@@ -18,13 +18,13 @@ function createData(
 }
 
 const rows = [
-  createData("15.01. - 15.03.", 220, 4, 4),
-  createData("15.03. - 01.05.", 248, 4, 4),
-  createData("01.05. - 15.06.", 280, 4, 4),
-  createData("15.06. - 15.09.", 300, 4, 4),
-  createData("15.09. - 01.11.", 280, 4, 4),
-  createData("01.11. - 01.12.", 248, 4, 4),
-  createData("01.12. - 15.01.", 300, 4, 4),
+  createData("15.01. - 15.03.", 220, 2, 4),
+  createData("15.03. - 01.05.", 248, 2, 4),
+  createData("01.05. - 15.06.", 280, 2, 4),
+  createData("15.06. - 15.09.", 300, 2, 4),
+  createData("15.09. - 01.11.", 280, 2, 4),
+  createData("01.11. - 01.12.", 248, 2, 4),
+  createData("01.12. - 15.01.", 300, 2, 4),
 ];
 
 export default function PriceTable_Ruta() {
