@@ -9,7 +9,7 @@ function Contact() {
   return (
     <section className="pt-16 md:pt-14">
       <NavPath />
-      <div className="container">
+      <div className="container mb-24">
         <h1 className="mt-12 font-ExtraBold text-center text-4xl text-dark_blue_black mb-12 tracking-wider">
           {c("title")}
         </h1>
