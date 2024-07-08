@@ -35,16 +35,16 @@ function HolidayHome() {
         onChange={handleChange}
         placeholder="Holiday home"
       >
-        <MenuItem value={"Villa Relax"} className="!pl-4">
+        <MenuItem value={"Apartment Ludwig"} className="!pl-4">
           Apartment Ludwig
         </MenuItem>
-        <MenuItem value={"Villa Relax"} className="!pl-4">
+        <MenuItem value={"Apartment Benedikta"} className="!pl-4">
           Apartment Benedikta
         </MenuItem>
-        <MenuItem value={"Villa Relax"} className="!pl-4">
+        <MenuItem value={"Room Lota"} className="!pl-4">
           Room Lota
         </MenuItem>
-        <MenuItem value={"Villa Relax"} className="!pl-4">
+        <MenuItem value={"Room Ruta"} className="!pl-4">
           Room Ruta
         </MenuItem>
       </Select>
