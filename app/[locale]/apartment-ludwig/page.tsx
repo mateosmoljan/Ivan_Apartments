@@ -67,7 +67,7 @@ function RoomLota() {
           <div className="w-full lg:w-2/3 mx-auto">
             <PropertyGallery property_gallery={PropertyGalleryLib} />
             <div className="flex flex-col gap-4">
-              <hr />
+              {/* <hr />
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {CategorizationData.data.map((item, index) => (
                   <button
@@ -82,7 +82,7 @@ function RoomLota() {
                     </span>
                   </button>
                 ))}
-              </div>
+              </div> */}
               <hr />
             </div>
             <div className="py-10">
