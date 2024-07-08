@@ -136,6 +136,7 @@ const Calendar = ({
     lateCheckouts,
     activeYear,
     monthsFrom,
+    bookings,
   };
 
   const shouldRender = {

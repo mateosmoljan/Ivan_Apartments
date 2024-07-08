@@ -76,6 +76,7 @@ export interface IYear {
   lateCheckouts: blockedDaysType;
   activeYear: number;
   monthsFrom: number;
+  bookings: BookingType[];
 }
 
 export interface IGetMonthName {

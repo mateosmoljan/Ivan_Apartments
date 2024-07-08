@@ -8,7 +8,7 @@ import {
   formatBookingsData,
   getMonthName,
 } from "./../Utils";
-import { bookings } from "@/components/AvailabilityCalendar/AvailabilityCalendar";
+// import { bookings } from "@/components/AvailabilityCalendar/AvailabilityCalendar";
 
 dayjs.extend(isBetween);
 
@@ -18,6 +18,7 @@ const Year: React.FC<IYear> = ({
   bookedDates = [],
   lateCheckouts = [],
   monthsFrom = 1,
+  bookings,
 }): JSX.Element => {
   const _year = activeYear || dayjs().year();
 

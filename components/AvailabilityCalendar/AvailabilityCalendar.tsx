@@ -1,8 +1,8 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import Calendar from "./index";
 import "./style.css";
+import { useBookings } from "@/Hooks/bookings_hook";
 
 export interface IBooking {
   from: Date;
@@ -15,15 +15,16 @@ type CalendarProps = {
   bookings: IBooking[];
 };
 
-const [Bookings, setBookings] = useState<IBooking[]>([]);
-
-export const bookings = Bookings;
-
 function AvailabilityCalendar({ Accommodation_name, bookings }: CalendarProps) {
-  useEffect(() => setBookings(bookings), []);
+  const { bookings: Bookings, setBookings } = useBookings(bookings);
+
+  useEffect(() => {
+    setBookings(bookings);
+  }, [bookings, setBookings]);
+
   return (
     <>
-      <Calendar bookings={bookings} Accommodation_name={Accommodation_name} />
+      <Calendar bookings={Bookings} Accommodation_name={Accommodation_name} />
     </>
   );
 }
