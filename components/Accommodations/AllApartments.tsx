@@ -2,7 +2,6 @@
 
 import React from "react";
 import PropertyCard from "./PropertyCard";
-import Slider from "react-slick";
 import { useLocale } from "next-intl";
 import { getAccommodationData } from "@/lib/acommodation";
 import { PropertyGalleryLib } from "@/lib/Ludwig_gallery";

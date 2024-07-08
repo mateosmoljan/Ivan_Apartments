@@ -177,7 +177,7 @@ function RoomLota() {
                 {TitleData.data[0].title2}
               </h2>
               <div className="h-[400px] rounded-md overflow-hidden lg:mb-[40px]">
-                <IFrameMaps location="Lota" />
+                <IFrameMaps location="Benedikta" />
               </div>
             </div>
           </div>
