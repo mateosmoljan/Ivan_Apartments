@@ -24,9 +24,9 @@ type DataObject = {
 };
 
 import enData from "@/messages/en.json";
-import deData from "@/messages/de.json";
+// import deData from "@/messages/de.json";
 import hrData from "@/messages/hr.json";
-import itData from "@/messages/it.json";
+// import itData from "@/messages/it.json";
 
 const createTitle = (
   one?: string,
@@ -96,31 +96,30 @@ export const TitleDataEn: DataObject = {
   ],
 };
 
-// You can also define a separate object for German translations if needed
-export const TitleDataDE: DataObject = {
-  data: [
-    createTitle(
-      deData.Calendar.one,
-      deData.Calendar.two,
-      deData.Calendar.three,
-      deData.Calendar.four,
-      deData.Calendar.five,
-      deData.Calendar.six,
-      deData.Calendar.seven,
-      deData.Calendar.eight,
-      deData.Calendar.nine,
-      deData.Calendar.ten,
-      deData.Calendar.eleven,
-      deData.Calendar.twelve,
-      deData.Calendar.booked,
-      deData.Calendar.checkIn,
-      deData.Calendar.checkOut,
-      deData.Calendar.reset,
-      deData.Calendar.back,
-      deData.Calendar.next
-    ),
-  ],
-};
+// export const TitleDataDE: DataObject = {
+//   data: [
+//     createTitle(
+//       deData.Calendar.one,
+//       deData.Calendar.two,
+//       deData.Calendar.three,
+//       deData.Calendar.four,
+//       deData.Calendar.five,
+//       deData.Calendar.six,
+//       deData.Calendar.seven,
+//       deData.Calendar.eight,
+//       deData.Calendar.nine,
+//       deData.Calendar.ten,
+//       deData.Calendar.eleven,
+//       deData.Calendar.twelve,
+//       deData.Calendar.booked,
+//       deData.Calendar.checkIn,
+//       deData.Calendar.checkOut,
+//       deData.Calendar.reset,
+//       deData.Calendar.back,
+//       deData.Calendar.next
+//     ),
+//   ],
+// };
 
 export const TitleDataHR: DataObject = {
   data: [
@@ -147,41 +146,41 @@ export const TitleDataHR: DataObject = {
   ],
 };
 
-export const TitleDataIT: DataObject = {
-  data: [
-    createTitle(
-      itData.Calendar.one,
-      itData.Calendar.two,
-      itData.Calendar.three,
-      itData.Calendar.four,
-      itData.Calendar.five,
-      itData.Calendar.six,
-      itData.Calendar.seven,
-      itData.Calendar.eight,
-      itData.Calendar.nine,
-      itData.Calendar.ten,
-      itData.Calendar.eleven,
-      itData.Calendar.twelve,
-      itData.Calendar.booked,
-      itData.Calendar.checkIn,
-      itData.Calendar.checkOut,
-      itData.Calendar.reset,
-      itData.Calendar.back,
-      itData.Calendar.next
-    ),
-  ],
-};
+// export const TitleDataIT: DataObject = {
+//   data: [
+//     createTitle(
+//       itData.Calendar.one,
+//       itData.Calendar.two,
+//       itData.Calendar.three,
+//       itData.Calendar.four,
+//       itData.Calendar.five,
+//       itData.Calendar.six,
+//       itData.Calendar.seven,
+//       itData.Calendar.eight,
+//       itData.Calendar.nine,
+//       itData.Calendar.ten,
+//       itData.Calendar.eleven,
+//       itData.Calendar.twelve,
+//       itData.Calendar.booked,
+//       itData.Calendar.checkIn,
+//       itData.Calendar.checkOut,
+//       itData.Calendar.reset,
+//       itData.Calendar.back,
+//       itData.Calendar.next
+//     ),
+//   ],
+// };
 
 export const getCalendarData = (language: string): DataObject => {
   switch (language) {
     case "en":
       return TitleDataEn;
-    case "de":
-      return TitleDataDE;
+    // case "de":
+    //   return TitleDataDE;
     case "hr":
       return TitleDataHR;
-    case "it":
-      return TitleDataIT;
+    // case "it":
+    //   return TitleDataIT;
     default:
       // Return default language if specified language is not found
       return TitleDataEn;

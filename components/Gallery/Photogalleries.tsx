@@ -2,7 +2,7 @@
 import { createContext, useContext, useState } from "react";
 import { TfiGallery } from "react-icons/tfi";
 import { Link } from "@/navigation";
-import { PropertyGalleryLib } from "@/lib/property_gallery";
+import { PropertyGalleryLib } from "@/lib/Ludwig_gallery";
 import PhotogalleriesImages from "./PhotogalleriesImages";
 import Gallery from "./Gallery";
 import { getPhotogalleriesData } from "@/lib/photogalleries";

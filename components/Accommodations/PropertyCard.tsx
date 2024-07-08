@@ -6,13 +6,20 @@ import { EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import { SwiperNavButtonsAcommodation } from "./SwiperNavButtonsAcommodation";
-import { PropertyGalleryLib } from "@/lib/property_gallery";
-import { useLocale } from "next-intl";
-import { getAccommodationData } from "@/lib/acommodation";
+import { DataObject } from "@/lib/Ludwig_gallery";
 
-function PropertyCard() {
-  const localeActive = useLocale();
-  const AccommodationsData = getAccommodationData(localeActive);
+type PropertyCardProps = {
+  props: {
+    card_title?: string;
+    card_des?: string;
+    card_des2?: string;
+    card_des3?: string;
+    money?: string;
+    PropertyGallery: DataObject;
+  };
+};
+
+function PropertyCard({ props }: PropertyCardProps) {
   return (
     <div className=" md:w-3/5 lg:w-1/2 shadow-md hover:shadow-xl custom_border rounded-md z-10 w-full overflow-hidden">
       <Swiper
@@ -21,7 +28,7 @@ function PropertyCard() {
         effect={"fade"}
         modules={[EffectFade]}
       >
-        {PropertyGalleryLib.images.map((image, index) => (
+        {props.PropertyGallery.images.map((image, index) => (
           <SwiperSlide key={index}>
             <div className="flex relative items-center justify-center h-full w-full">
               <Image
@@ -38,14 +45,12 @@ function PropertyCard() {
         <SwiperNavButtonsAcommodation />
       </Swiper>
       <div className="p-3">
-        <h2 className="font-black text-xl font-arbutus">
-          {AccommodationsData.data[0].card_title}
-        </h2>
-        <p className="text-sm">{AccommodationsData.data[0].card_des}</p>
+        <h2 className="font-black text-xl font-arbutus">{props.card_title}</h2>
+        <p className="text-sm">{props.card_des}</p>
         <p className="text-sm">
-          {AccommodationsData.data[0].card_des2}{" "}
-          <span className="font-bold text-yellow text-xl">375 €</span>{" "}
-          {AccommodationsData.data[0].card_des3}
+          {props.card_des2}{" "}
+          <span className="font-bold text-yellow text-xl">{props.money}</span>{" "}
+          {props.card_des3}
         </p>
       </div>
     </div>

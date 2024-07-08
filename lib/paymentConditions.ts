@@ -15,9 +15,9 @@ type DataObject = {
 };
 
 import enData from "@/messages/en.json";
-import deData from "@/messages/de.json";
+// import deData from "@/messages/de.json";
 import hrData from "@/messages/hr.json";
-import itData from "@/messages/it.json";
+// import itData from "@/messages/it.json";
 
 const createTitle = (
   subtitle?: string,
@@ -60,20 +60,20 @@ export const TitleDataEn: DataObject = {
 };
 
 // You can also define a separate object for German translations if needed
-export const TitleDataDE: DataObject = {
-  data: [
-    createTitle(
-      deData.Payment_conditions.subtitle,
-      deData.Payment_conditions.title,
-      deData.Payment_conditions.des2,
-      deData.Payment_conditions.des3,
-      deData.Payment_conditions.des4,
-      deData.Payment_conditions.des5,
-      deData.Payment_conditions.des6,
-      deData.Payment_conditions.title2
-    ),
-  ],
-};
+// export const TitleDataDE: DataObject = {
+//   data: [
+//     createTitle(
+//       deData.Payment_conditions.subtitle,
+//       deData.Payment_conditions.title,
+//       deData.Payment_conditions.des2,
+//       deData.Payment_conditions.des3,
+//       deData.Payment_conditions.des4,
+//       deData.Payment_conditions.des5,
+//       deData.Payment_conditions.des6,
+//       deData.Payment_conditions.title2
+//     ),
+//   ],
+// };
 
 export const TitleDataHR: DataObject = {
   data: [
@@ -90,31 +90,31 @@ export const TitleDataHR: DataObject = {
   ],
 };
 
-export const TitleDataIT: DataObject = {
-  data: [
-    createTitle(
-      itData.Payment_conditions.subtitle,
-      itData.Payment_conditions.title,
-      itData.Payment_conditions.des2,
-      itData.Payment_conditions.des3,
-      itData.Payment_conditions.des4,
-      itData.Payment_conditions.des5,
-      itData.Payment_conditions.des6,
-      itData.Payment_conditions.title2
-    ),
-  ],
-};
+// export const TitleDataIT: DataObject = {
+//   data: [
+//     createTitle(
+//       itData.Payment_conditions.subtitle,
+//       itData.Payment_conditions.title,
+//       itData.Payment_conditions.des2,
+//       itData.Payment_conditions.des3,
+//       itData.Payment_conditions.des4,
+//       itData.Payment_conditions.des5,
+//       itData.Payment_conditions.des6,
+//       itData.Payment_conditions.title2
+//     ),
+//   ],
+// };
 
 export const getPaymentConditionsData = (language: string): DataObject => {
   switch (language) {
     case "en":
       return TitleDataEn;
-    case "de":
-      return TitleDataDE;
+    // case "de":
+    //   return TitleDataDE;
     case "hr":
       return TitleDataHR;
-    case "it":
-      return TitleDataIT;
+    // case "it":
+    //   return TitleDataIT;
     default:
       // Return default language if specified language is not found
       return TitleDataEn;

@@ -12,7 +12,7 @@ import "./style.css";
 
 import { FreeMode, Navigation, Thumbs, EffectFade } from "swiper/modules";
 import Image from "next/image";
-import { PropertyGalleryLib } from "@/lib/property_gallery";
+import { DataObject, PropertyGalleryLib } from "@/lib/Ludwig_gallery";
 import { SwiperNavButtons } from "./SwiperNavButton";
 import Loading from "../Loading/Loading";
 import Gallery from "../Gallery/Gallery";
@@ -29,7 +29,11 @@ export const AppContext = createContext<AppContextType>({
 
 export const useGalleryContext = () => useContext(AppContext);
 
-export default function PropertyGallery() {
+type props = {
+  property_gallery: DataObject;
+};
+
+export default function PropertyGallery({ property_gallery }: props) {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -63,7 +67,7 @@ export default function PropertyGallery() {
               onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
               className="PropertySwiper !overflow-visible "
             >
-              {PropertyGalleryLib.images.map((image, index) => (
+              {property_gallery.images.map((image, index) => (
                 <SwiperSlide key={index}>
                   <div className="flex items-center justify-center w-full h-full cursor-pointer">
                     <Image
@@ -83,7 +87,7 @@ export default function PropertyGallery() {
             </Swiper>
             {openGalleryContext && (
               <Gallery
-                library={PropertyGalleryLib.images}
+                library={property_gallery.images}
                 initIndex={activeIndex}
               />
             )}
@@ -110,7 +114,7 @@ export default function PropertyGallery() {
                 },
               }}
             >
-              {PropertyGalleryLib.images.map((image, index) => (
+              {property_gallery.images.map((image, index) => (
                 <SwiperSlide key={index}>
                   <div className={`flex items-center justify-center `}>
                     <Image

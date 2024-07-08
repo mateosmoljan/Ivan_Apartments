@@ -15,9 +15,9 @@ import image13 from "@/public/assets/images/beach2.jpg";
 import image14 from "@/public/assets/images/kamenjak.jpg";
 
 import enData from "@/messages/en.json";
-import deData from "@/messages/de.json";
+// import deData from "@/messages/de.json";
 import hrData from "@/messages/hr.json";
-import itData from "@/messages/it.json";
+// import itData from "@/messages/it.json";
 
 type LocationToVisitData = {
   src: StaticImageData;
@@ -74,14 +74,14 @@ export const TouristGuideDataEn: DataObject = {
 };
 
 // You can also define a separate object for German translations if needed
-export const TouristGuideDataDE: DataObject = {
-  data: replaceTouristGuide(
-    TouristImageData,
-    deData.Tourist_Guide.subtitle,
-    deData.Tourist_Guide.title,
-    deData.Tourist_Guide.image_des
-  ),
-};
+// export const TouristGuideDataDE: DataObject = {
+//   data: replaceTouristGuide(
+//     TouristImageData,
+//     deData.Tourist_Guide.subtitle,
+//     deData.Tourist_Guide.title,
+//     deData.Tourist_Guide.image_des
+//   ),
+// };
 
 export const TouristGuideDataHR: DataObject = {
   data: replaceTouristGuide(
@@ -92,25 +92,25 @@ export const TouristGuideDataHR: DataObject = {
   ),
 };
 
-export const TouristGuideDataIT: DataObject = {
-  data: replaceTouristGuide(
-    TouristImageData,
-    itData.Tourist_Guide.subtitle,
-    itData.Tourist_Guide.title,
-    itData.Tourist_Guide.image_des
-  ),
-};
+// export const TouristGuideDataIT: DataObject = {
+//   data: replaceTouristGuide(
+//     TouristImageData,
+//     itData.Tourist_Guide.subtitle,
+//     itData.Tourist_Guide.title,
+//     itData.Tourist_Guide.image_des
+//   ),
+// };
 
 export const getTouristGuideData = (language: string): DataObject => {
   switch (language) {
     case "en":
       return TouristGuideDataEn;
-    case "de":
-      return TouristGuideDataDE;
+    // case "de":
+    //   return TouristGuideDataDE;
     case "hr":
       return TouristGuideDataHR;
-    case "it":
-      return TouristGuideDataIT;
+    // case "it":
+    //   return TouristGuideDataIT;
     default:
       // Return default language if specified language is not found
       return TouristGuideDataEn;

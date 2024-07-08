@@ -46,278 +46,82 @@ import smoke_detektor from "@/public/assets/icons/smoke-detector.png";
 import carbon from "@/public/assets/icons/carbon.png";
 
 type features = {
-  icon: StaticImageData;
-  icon_alt: string;
-  titles?: string;
-  des?: string;
+  Apartment_Ludwig: string[];
+  Apartment_Benedikta: string[];
+  Room_Lota: string[];
+  Room_Ruta: string[];
 };
 
 type DataObject = {
-  data: features[];
+  data: features;
 };
 
-export const Features: features[]= [
-  // Bathroom
-  {
-    icon: hairdryer,
-    icon_alt: "",
-  },
-  {
-    icon: hot_water,
-    icon_alt: "",
-  },
-  // Bedroom and laundry
-  {
-    icon: washer,
-    icon_alt: "",
-  },
-  {
-    icon: dryer,
-    icon_alt: "",
-  },
-  {
-    icon: essentials,
-    icon_alt: "",
-  },
-  {
-    icon: hangers,
-    icon_alt: "",
-  },
-  {
-    icon: bed_linens,
-    icon_alt: "",
-  },
-  {
-    icon: pillows_blankets,
-    icon_alt: "",
-  },
-  {
-    icon: darkening_shades,
-    icon_alt: "",
-  },
-  {
-    icon: iron,
-    icon_alt: "",
-  },
-  // Entertainment
-  {
-    icon: television,
-    icon_alt: "",
-  },
-  // Family
-  {
-    icon: crib,
-    icon_alt: "",
-  },
-  {
-    icon: books_toys,
-    icon_alt: "",
-  },
-  {
-    icon: high_chair,
-    icon_alt: "",
-  },
-  {
-    icon: fireplace_guard,
-    icon_alt: "",
-  },
-  {
-    icon: window_guards,
-    icon_alt: "",
-  },
-  {
-    icon: outlet_covers,
-    icon_alt: "",
-  },
-  {
-    icon: baby_safety_gates,
-    icon_alt: "",
-  },
-  {
-    icon: table_corner_guards,
-    icon_alt: "",
-  },
-  // Heating and cooling
-  {
-    icon: air_conditioner,
-    icon_alt: "",
-  },
-  {
-    icon: indoor_fireplace,
-    icon_alt: "",
-  },
-  {
-    icon: heating,
-    icon_alt: "",
-  },
-  // Home safety
-  {
-    icon: fire_extinguisher,
-    icon_alt: "",
-  },
-  {
-    icon: aid_kit,
-    icon_alt: "",
-  },
-  // Internet and office
-  {
-    icon: wifi,
-    icon_alt: "",
-  },
-  // Kitchen and dining
-  {
-    icon: kitchen,
-    icon_alt: "",
-  },
-  {
-    icon: refrigerator,
-    icon_alt: "",
-  },
-  {
-    icon: microwave,
-    icon_alt: "",
-  },
-  {
-    icon: cooking_basics,
-    icon_alt: "",
-  },
-  {
-    icon: dishes,
-    icon_alt: "",
-  },
-  {
-    icon: dishwasher,
-    icon_alt: "",
-  },
-  {
-    icon: stove,
-    icon_alt: "",
-  },
-  {
-    icon: oven,
-    icon_alt: "",
-  },
-  {
-    icon: coffee_maker,
-    icon_alt: "",
-  },
-  {
-    icon: sheet,
-    icon_alt: "",
-  },
-  {
-    icon: grill,
-    icon_alt: "",
-  },
-  // Outdoor
-  {
-    icon: backyard,
-    icon_alt: "",
-  },
-  // Parking and facilities
-  {
-    icon: parking,
-    icon_alt: "",
-  },
-  {
-    icon: pool,
-    icon_alt: "",
-  },
-  // Services
-  {
-    icon: luggage,
-    icon_alt: "",
-  },
-  {
-    icon: smoking,
-    icon_alt: "",
-  },
-  {
-    icon: long_term_stays,
-    icon_alt: "",
-  },
-  {
-    icon: key,
-    icon_alt: "",
-  },
-  // Not included
-  {
-    icon: smoke_detektor,
-    icon_alt: "",
-  },
-  {
-    icon: carbon,
-    icon_alt: "",
-  },
-];
-
 import enData from "@/messages/en.json";
-import deData from "@/messages/de.json";
+// import deData from "@/messages/de.json";
 import hrData from "@/messages/hr.json";
-import itData from "@/messages/it.json";
+// import itData from "@/messages/it.json";
 
 const replaceFeaturesData = (
-  data: features[],
-  icon_alt: string[],
-  titles: string[],
-  des: string[]
-) => {
-  return data.map((items, index) => ({
-    ...items,
-    icon_alt: titles[index],
-    titles: titles[index],
-    des: des[index],
-  }));
+  Apartment_Ludwig: string[],
+  Apartment_Benedikta: string[],
+  Room_Lota: string[],
+  Room_Ruta: string[]
+): features => {
+  return {
+    Apartment_Ludwig,
+    Apartment_Benedikta,
+    Room_Lota,
+    Room_Ruta,
+  };
 };
 
 // Define the data object
 export const FeaturesDataEn: DataObject = {
   data: replaceFeaturesData(
-    Features,
-    enData.Villa_Features.card.title,
-    enData.Villa_Features.card.title,
-    enData.Villa_Features.card.des
+    enData.Features.Apartment_Ludwig,
+    enData.Features.Apartment_Benedikta,
+    enData.Features.Room_Lota,
+    enData.Features.Room_Ruta
   ),
 };
 
-// You can also define a separate object for German translations if needed
-export const FeaturesDataDE: DataObject = {
-  data: replaceFeaturesData(
-    Features,
-    deData.Villa_Features.card.title,
-    deData.Villa_Features.card.title,
-    deData.Villa_Features.card.des
-  ),
-};
+// export const FeaturesDataDE: DataObject = {
+//   data: replaceFeaturesData(
+//     Features,
+//     deData.Villa_Features.card.title,
+//     deData.Villa_Features.card.title,
+//     deData.Villa_Features.card.des
+//   ),
+// };
 
 export const FeaturesDataHR: DataObject = {
   data: replaceFeaturesData(
-    Features,
-    hrData.Villa_Features.card.title,
-    hrData.Villa_Features.card.title,
-    hrData.Villa_Features.card.des
+    hrData.Features.Apartment_Ludwig,
+    hrData.Features.Apartment_Benedikta,
+    hrData.Features.Room_Lota,
+    hrData.Features.Room_Ruta
   ),
 };
 
-export const FeaturesDataIT: DataObject = {
-  data: replaceFeaturesData(
-    Features,
-    itData.Villa_Features.card.title,
-    itData.Villa_Features.card.title,
-    itData.Villa_Features.card.des
-  ),
-};
+// export const FeaturesDataIT: DataObject = {
+//   data: replaceFeaturesData(
+//     Features,
+//     itData.Villa_Features.card.title,
+//     itData.Villa_Features.card.title,
+//     itData.Villa_Features.card.des
+//   ),
+// };
 
 export const getFeaturesData = (language: string): DataObject => {
   switch (language) {
     case "en":
       return FeaturesDataEn;
-    case "de":
-      return FeaturesDataDE;
+    // case "de":
+    //   return FeaturesDataDE;
     case "hr":
       return FeaturesDataHR;
-    case "it":
-      return FeaturesDataIT;
+    // case "it":
+    //   return FeaturesDataIT;
     default:
       // Return default language if specified language is not found
       return FeaturesDataEn;

@@ -33,20 +33,20 @@ function Footer() {
           <ul className="space-y-4 !text-white">
             <li>
               <Link
-                href="https://www.pulainfo.hr/"
+                href="https://www.zagreb.hr/"
                 target="_blank"
                 className="!text-white underline hover:!text-yellow"
               >
-                {t("Discover.list.Pula")}
+                {t("Discover.list.Zagreb.name")}
               </Link>
             </li>
             <li>
               <Link
-                href="https://www.istra.hr/"
+                href="https://www.infozagreb.hr/"
                 target="_blank"
                 className="!text-white underline hover:!text-yellow"
               >
-                {t("Discover.list.Guide")}
+                {t("Discover.list.Guide.name")}
               </Link>
             </li>
           </ul>
@@ -56,10 +56,9 @@ function Footer() {
             {t("Contact_Us.title")}
           </h2>
           <ul className="space-y-4">
-            <li>Sandra Smoljan</li>
-            <li>Schiavuzzijev prilaz 36, 52100 Pula</li>
-            <li>+(385) 98 263 136</li>
-            <li>villarelaxinfo@gmail.com</li>
+            <li>Ivan Ožegović</li>
+            <li>+(385) 98 130 1691</li>
+            <li>zagrebcenterapartmentsinfo@gmail.com</li>
           </ul>
         </div>
       </div>

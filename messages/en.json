@@ -1,262 +1,284 @@
 {
   "Titles": {
-    "homepage_title": "Villa Relax - Pula",
-    "Villa_Relax": "Holiday Home Villa Relax",
-    "Villa_Map_Location": "Location on the map",
+    "homepage_title": "Center Apartments - Zagreb",
+    "home": "Apartments in the center of Zagreb",
+    "Villa_Map_Location": "Map Location",
     "Availability_Calendar": "Availability Calendar",
     "Availability_Appointments_sub": "AVAILABLE APPOINTMENTS",
-    "Price_list": "Price list Villa Relax",
-    "Photogallery": "Photogallery Villa Relax, Pula",
-    "Surrondings": "Pula and surroundings",
-    "Surrondings_sub": "PULA & ISTRIA"
+    "Price_list": {
+      "Lota": "Lota Price List",
+      "Ruta": "Ruta Price List",
+      "Ludwig": "Ludwig Price List",
+      "Benedikta": "Benedikta Price List"
+    },
+    "Photogallery": {
+      "Lota": "Photo Gallery Room Lota, Zagreb",
+      "Ruta": "Photo Gallery Room Ruta, Zagreb",
+      "Ludwig": "Photo Gallery Apartment Ludwig, Pula",
+      "Benedikta": "Photo Gallery Apartment Benedikta, Zagreb"
+    }
   },
   "Buttons": {
     "Show_Gallery": "Show Gallery"
   },
   "Navigation": {
     "navlinks": [
-      "Villa Relax",
-      "Pricelist",
+      "Apartment Lodwig",
+      "Apartment Benedikta",
+      "Room Lota",
+      "Room Ruta",
+      "Price List",
       "Photogallery",
-      "Environs",
-      "Contact"
+      "Surroundings"
     ],
     "navLinksButton": "Book"
   },
 
   "HeaderSwiper": {
     "titles": [
-      "Welcome to Villa Relax - Pula",
-      "Modern Design and Spacious Dinning Table",
-      "Fireplace Retreat",
-      "Aqua Haven"
+      "Ludwig Center",
+      "Benedikt with Parking",
+      "Ruta & Lota - Bus Proximity"
     ],
     "descriptions": [
-      "Tranquil Oasis Villa",
-      "Enjoy cozy gatherings around the generously sized dining table",
-      "Cozy haven where crackling flames and warmth embrace you, inviting relaxation and tranquility amidst the gentle glow of flickering embers.",
-      "A Modern Retreat with Private Pool, Nestled in Nature's Embrace"
+      "Experience Zagreb from the front row! Our Ludwig apartment is located in the very center of the city, ideal for exploring all the main attractions.",
+      "Comfortable Benedikt apartment with secure parking, just a few minutes' walk from the main station, perfect for travelers.",
+      "Ruta & Lota apartments located near the bus station and airport shuttle, provide convenience and comfort for your stay."
     ],
-    "button": "Read More"
+    "button": "Learn More"
   },
 
   "About": {
-    "title": "Overview",
-    "des": "**The villa** is located in a quiet tourist settlement street of the city of **Pula**. It is **900 m** away from the **sea**. The first main beach Verudela is excellent, only a 3-minute drive away. A café is 20 meters away and a shop is 100 meters away from the house. The house is extremely comfortable and stylishly furnished, adapted to modern way of life. It is available for 14 people + 2 extra beds. The interior space occupies 500 square meters and 2000 square meters of natural plot, which provides additional ambiance. The lawn features **football goals**, a trampoline, a swing, and a **fireplace**.",
-    "guest_access": {
-      "title": "Guest Access",
-      "des": "Jacuzzi, sauna, fitness, bikes, karaoke, billiards, football, darts, trampoline."
-    },
+    "title": "Luxury Apartments in the Center of Zagreb",
+    "des": [
+      "## Luxury **Apartments** in the Center of Zagreb",
+      "Discover our top-notch apartments in the heart of Zagreb, perfect for your stay.",
+      "**Ludwig Center** – Located in the very center, with free WiFi, air conditioning, security, children's playground, fitness room, and bike and car rental options. Close to the Main Station, Flower Square, and Botanical Garden.",
+      "**Benedikt Parking** – Comfortable apartment with secure private parking, free WiFi, and air conditioning, a few minutes' walk from the main station. Close to King Tomislav Square, Archaeological Museum, and Botanical Garden.",
+      "**Art rooms Lota & Ruta** – Near the bus station and airport shuttle, with free WiFi, air conditioning, and private entrance. Close to the Archaeological Museum, King Tomislav Square, and Flower Square.",
+      "Book now and enjoy the luxury, comfort, and convenience of our apartments!"
+    ],
+
     "locations": {
-      "title": "What to see and visit:",
+      "title": "What to visit and see:",
       "des": [
-        "- The Aquacolors water amusement park.",
-        "- Explore the beautiful islands of Brijuni National Park, rich in natural beauty and cultural heritage.",
-        "- Discover the ancient Roman amphitheater in Pula, one of the best-preserved Roman amphitheaters in the world.",
-        "- Dive into the underwater world at Pula Aquarium, located near the city center. Explore various marine habitats, observe diverse aquatic species, and learn about the importance of marine conservation.",
-        "- Experience thrilling water slides, lazy rivers, and relaxing pools at Istralandia Aquapark, located near Novigrad. Perfect for families and water enthusiasts, this aquapark offers a fun-filled day for all ages."
+        "Explore Ban Jelačić Square, the main square in Zagreb, the center of all city events.",
+        "Stroll through the Upper Town, the historic core of Zagreb, with narrow streets, old houses, and beautiful views of the city.",
+        "Visit the Cathedral of the Assumption of the Blessed Virgin Mary, the most famous cathedral in Zagreb and one of the tallest buildings in Croatia.",
+        "Enjoy the beauty of the Botanical Garden, a peaceful oasis in the city center with a rich collection of plants.",
+        "Explore the Museum of Broken Relationships, a unique museum dedicated to failed romantic relationships and the items left behind by former partners.",
+        "Discover the Zagreb Zoo, located in the beautiful Maksimir Park, ideal for families and animal lovers.",
+        "Visit the Mimara Museum, with a rich collection of artworks and cultural artifacts from around the world.",
+        "Stroll through Dolac, the most famous market in Zagreb, where you can buy fresh produce and local products."
       ]
     }
   },
-
   "Distances": {
-    "title": "Distances from Villa Relax",
-    "button": "Show Map",
-    "place": [
-      "Sea",
-      "Beach",
-      "Grocery store",
-      "Restaurant",
-      "Bank / ATM",
-      "Pharmacy",
-      "Hospital / Infirmary",
-      "Post",
-      "Gas station",
-      "Sports fields",
-      "Railway station",
-      "Airport"
-    ]
+    "Ludwig": {
+      "title": "Distances from Apartment Ludwig",
+      "button": "Show Map",
+      "place": [
+        "Main Train Station: **0.5 km**",
+        "Ban Jelačić Square: **1 km**",
+        "Botanical Garden: **1.3 km**",
+        "Zagreb Cathedral: **1.5 km**"
+      ]
+    },
+    "Benedikt": {
+      "title": "Distances from Apartment Benedikta",
+      "button": "Show Map",
+      "place": [
+        "Main Train Station: **0.3 km**",
+        "King Tomislav Square: **0.4 km**",
+        "Archaeological Museum Zagreb: **0.5 km**",
+        "Botanical Garden Zagreb: **1.2 km**"
+      ]
+    },
+    "Lota_Ruta": {
+      "title": "Distances from Art rooms Lota & Ruta",
+      "button": "Show Map",
+      "place": [
+        "Main Bus Station: **0.7 km**",
+        "King Tomislav Square: **0.8 km**",
+        "Flower Square: **1 km**",
+        "Museum of Broken Relationships Zagreb: **1.5 km**"
+      ]
+    }
   },
   "Acommodation": {
     "subtitle": "ACCOMMODATION",
-    "title": "We offer you 1 Villa",
-    "card_title": "Villa Relax",
-    "card_des": "Maximum of 16 people",
-    "card_des2": "Price from",
-    "card_des3": "per night"
+    "title": "We offer you 2 Apartments and 2 Rooms",
+    "Ludwig": {
+      "card_title": "Apartment Ludwig",
+      "card_des": "Accommodates up to 6 people",
+      "card_des2": "Price from",
+      "card_des3": "per night",
+      "money": "60 €"
+    },
+    "Benedikt": {
+      "card_title": "Apartment Benedikt",
+      "card_des": "Accommodates up to 4 people",
+      "card_des2": "Price from",
+      "card_des3": "per night",
+      "money": "60 €"
+    },
+    "Lota": {
+      "card_title": "Art room Lota",
+      "card_des": "Accommodates up to 3 people",
+      "card_des2": "Price from",
+      "card_des3": "per night",
+      "money": "60 €"
+    },
+    "Ruta": {
+      "card_title": "Art room Ruta",
+      "card_des": "Accommodates up to 3 people",
+      "card_des2": "Price from",
+      "card_des3": "per night",
+      "money": "60 €"
+    }
   },
   "Photogalleries": {
-    "subtitle": "PHOTOGALLERIES",
-    "title": "Select photos from Villa Relax",
-    "button": "Show Photogallery"
+    "subtitle": "PHOTO GALLERIES",
+    "title": {
+      "Ludwig": "Photo Gallery Apartment Ludwig",
+      "Benedikt": "Photo Gallery Apartment Benedikt",
+      "Lota": "Photo Gallery Art room Lota",
+      "Ruta": "Photo Gallery Art room Ruta"
+    },
+    "button": "Show Photo Gallery"
   },
   "Tourist_Guide": {
     "subtitle": "TOURIST GUIDE",
     "title": "What to visit, see and do?",
     "image_des": [
-      "The biggest in Croatia",
-      "National Park",
-      "Water park",
-      "Events",
-      "Water park",
-      "beach/cliff jumping"
+      "Ban Jelačić Square",
+      "Upper Town",
+      "Botanical Garden",
+      "Museum of Broken Relationships",
+      "Zagreb Zoo",
+      "Dolac - the most famous market"
     ]
   },
   "Send_Message": {
-    "des": "Please **send us an** answer if you would like to belong to Villa Relax in Pula and secure your reservation?",
+    "des": "Please **send** us a response if you wish to belong to the Apartments in the Center of Zagreb and secure your reservation?",
     "button": "Send Message"
   },
   "Footer": {
-    "year": "©2024 . Villa Relax - Pula",
-    "rights": "All rights protected",
+    "year": "©2024 . Center Apartments - Zagreb",
+    "rights": "All rights reserved",
     "created_by": "Website by BoostWeb",
     "Discover": {
       "title": "Discover",
       "list": {
-        "Pula": "Pula Info",
-        "Guide": "Tourist guide Istra"
+        "Zagreb": {
+          "name": "Zagreb Info",
+          "link": "https://www.zagreb.hr/"
+        },
+        "Guide": {
+          "name": "Zagreb Tourist Guide",
+          "link": "https://www.infozagreb.hr/"
+        }
       }
     },
     "Contact_Us": {
-      "title": "Contact us"
+      "title": "Contact Us"
     }
   },
   "Categorization": {
     "title": ["Categorization", "Capacity", "Size", "Garden"]
   },
-  "Villa_Description": {
-    "des": "The villa is located in a quiet tourist settlement street of the city of Pula. It is 900 m away from the sea. The first main beach Verudela is excellent, only a 3-minute drive away. A café is 20 meters away and a shop is 100 meters away from the house. The house is extremely comfortable and stylishly furnished, adapted to modern way of life. It is available for 14 people + 2 extra beds. The interior space occupies 500 square meters and 2000 square meters of natural plot, which provides additional ambiance. The lawn features football goals, a trampoline, a swing, and a fireplace.",
-    "subtitle": "The Space",
-    "des2": "On the ground floor of the property is a spacious living area with a kitchen and dining room of modern design, leading to a large terrace of 100 square meters where garden furniture and a pavilion are located. Also on the ground floor is a wellness area, from which a view of the pool, terraces, and greenery is provided through large glass walls. The pool is 48 square meters in size, with a shallow area for children (0.5 meters deep) and a deeper area for adults (1.5 meters deep), equipped with hydro massage. The activity area extends through the entire basement of the house, with an additional kitchen and a fireplace that complements the experience. In the basement, there is also a garage with 2 parking spaces and 6 bicycles for city rides, while the fully fenced plot offers another 4 parking spaces. On the upper floor of the house, there is a study, 4 bedrooms with bathrooms, each with access to a terrace, and 1 attic room. The house is air-conditioned, and all rooms have central heating. In addition to the internal staircase, the floors are interconnected by an elevator. Large covered terraces further distinguish this property. The house is located near the marina, as well as all other interesting amenities, including the center of ancient Pula, which abounds in cultural and historical landmarks.",
-    "subtitle2": "Guest access",
-    "des3": "Guests can access 6 bedrooms, 2 living rooms, 2 kitchens, 8 bathrooms, balconies, terrace, beauty room, game room/summer kitchen, a room with a washing machine and ironing facilities, swimming pool, lawn, garden, children's playground and entire outdoor area."
+
+  "Apartment_Ludwig_Des": {
+    "des": "Apartment Ludwig is located in the very center of Zagreb, near the main train station. This luxury property covers 300 square meters and offers comfortable accommodation for up to 6 people. The apartment is modernly furnished and equipped with all the necessary amenities for a pleasant stay.",
+    "subtitle": "Space",
+    "des2": "Apartment Ludwig includes a spacious living room with a fully equipped kitchen, dining area, and access to the terrace. In addition, guests can enjoy a wellness area with a pool view, terrace, and greenery. The pool is equipped with hydromassage and is ideal for relaxation.",
+    "subtitle2": "Guest Access",
+    "des3": "Guests can use 3 bedrooms, two modern living rooms, fully equipped kitchens, multiple bathrooms, terraces, and access to the pool and other outdoor amenities."
   },
-  "Villa_Features": {
+  "Apartment_Benedikt_Des": {
+    "des": "Apartment Benedikt is located in the center of Zagreb, just a few minutes' walk from the main train station. This comfortable apartment offers accommodation for up to 4 people and is ideal for families or small groups wanting to explore the city.",
+    "subtitle": "Space",
+    "des2": "Apartment Benedikt includes a cozy living room, a fully equipped kitchen, and a dining area. The apartment also features two bedrooms, a modern bathroom, and a terrace. The private parking area is an added benefit for those traveling by car.",
+    "subtitle2": "Guest Access",
+    "des3": "Guests can use the entire apartment, including the living room, kitchen, bedrooms, bathroom, and terrace. The private parking area is available for guests."
+  },
+  "Room_Lota_Des": {
+    "des": "Art room Lota is a stylish and comfortable room located near the main bus station in Zagreb. This room is ideal for travelers seeking a convenient and cozy place to stay while exploring the city.",
+    "subtitle": "Space",
+    "des2": "Art room Lota features a comfortable bed, a small seating area, and a modern bathroom. The room is designed with artistic touches and offers a unique ambiance. Free WiFi and air conditioning are available.",
+    "subtitle2": "Guest Access",
+    "des3": "Guests can use the entire room, including the seating area and bathroom. The private entrance ensures privacy and convenience."
+  },
+  "Room_Ruta_Des": {
+    "des": "Art room Ruta is a charming room located near the main bus station in Zagreb. It offers a comfortable and stylish stay for travelers visiting the city.",
+    "subtitle": "Space",
+    "des2": "Art room Ruta includes a cozy bed, a small seating area, and a modern bathroom. The room is tastefully decorated with artistic elements, providing a pleasant and inviting atmosphere. Free WiFi and air conditioning are available.",
+    "subtitle2": "Guest Access",
+    "des3": "Guests can use the entire room, including the seating area and bathroom. The private entrance ensures privacy and convenience."
+  },
+  "Features": {
     "title": "Features",
-    "title2": "What this place offers",
-    "title3": "Bathroom",
-    "title4": "Bedroom and laundry",
-    "title5": "Entertainment",
-    "title6": "Family",
-    "title7": "Heating and cooling",
-    "title8": "Home safety",
-    "title9": "Internet and office",
-    "title10": "Kitchen and dining",
-    "title11": "Outdoor",
-    "title12": "Parking and facilities",
-    "title13": "Services",
-    "title14": "Not included",
-    "button": "Show all 43 amenities",
-    "card": {
-      "title": [
-        "Hair dryer",
-        "Hot water",
-        "Washer",
-        "Dryer",
-        "Essentials",
-        "Hangers",
-        "Bed linens",
-        "Extra pillows and blankets",
-        "Room-darkening shades",
-        "Iron",
-        "TV with standard cable",
-        "Crib",
-        "Children’s books and toys",
-        "High chair",
-        "Fireplace guards",
-        "Window guards",
-        "Outlet covers",
-        "Baby safety gates",
-        "Table corner guards",
-        "Air conditioning",
-        "Indoor fireplace",
-        "Heating",
-        "Fire extinguisher",
-        "First aid kit",
-        "Wifi",
-        "Kitchen",
-        "Refrigerator",
-        "Microwave",
-        "Cooking basics",
-        "Dishes and silverware",
-        "Dishwasher",
-        "Stove",
-        "Oven",
-        "Coffee maker",
-        "Baking sheet",
-        "Barbecue utensils",
-        "Backyard",
-        "Free parking on premises",
-        "Pool",
-        "Luggage dropoff allowed",
-        "Smoking allowed",
-        "Long term stays allowed",
-        "Host greets you",
-        "Smoke alarm",
-        "Carbon monoxide alarm"
-      ],
-      "des": [
-        "",
-        "",
-        "",
-        "",
-        "Towels, bed sheets, soap, and toilet paper",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "Space where guests can cook their own meals",
-        "",
-        "",
-        "Pots and pans, oil, salt and pepper",
-        "Bowls, chopsticks, plates, cups, etc.",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "Grill, charcoal, bamboo skewers/iron skewers, etc.",
-        "An open space on the property usually covered in grass",
-        "",
-        "",
-        "For guests' convenience when they have early arrival or late departure",
-        "",
-        "Allow stay for 28 days or more",
-        "",
-        "There is no smoke alarm on the property.",
-        "There is no carbon monoxide detector on the propert"
-      ]
-    }
+    "Apartment_Ludwig": [
+      "Entire apartment",
+      "45 m² size",
+      "Free WiFi",
+      "Family rooms",
+      "Non-smoking rooms",
+      "Air conditioning",
+      "Private bathroom",
+      "View",
+      "Kitchen",
+      "Bathtub"
+    ],
+    "Apartment_Benedikta": [
+      "Entire apartment",
+      "29 m² size",
+      "Free on-site parking",
+      "Free WiFi",
+      "Pets allowed",
+      "Free shuttle service",
+      "Family rooms",
+      "Non-smoking rooms",
+      "Air conditioning",
+      "Private bathroom"
+    ],
+    "Room_Lota": [
+      "Free parking",
+      "Free WiFi",
+      "Family rooms",
+      "Air conditioning",
+      "Private bathroom",
+      "View",
+      "Kitchen",
+      "Shower",
+      "Flat-screen TV"
+    ],
+    "Room_Ruta": [
+      "Free parking",
+      "Free WiFi",
+      "Family rooms",
+      "Air conditioning",
+      "Private bathroom",
+      "View",
+      "Kitchen",
+      "Shower",
+      "Flat-screen TV"
+    ]
   },
+
   "Pricelist": {
     "title": "Pricelist",
-    "subtitle": "*The price refers to the period of 4 nights in Euros"
+    "subtitle": "*The price refers to a period of 4 nights in Euros"
   },
   "Payment_conditions": {
-    "subtitle": "TERMS & CONDITIONS",
-    "title": "Payment and booking conditions",
-    "des2": "For your reservation to be secured it is obligation to pay 30% of full price in advance directly to owner of accommodation and 70% when you come to accommodation unit.",
-    "des3": "Deposit refundable if all is well: 500 euros.",
-    "des4": "Possibility of free cancellation one week after booking (EXCEPT IN LAST MINUTE RESERVATIONS, THEN THE DEADLINE IS 48 HOURS). Last minute - Reservation two weeks before.",
-    "des5": "On the last day of the stay, the guest is obliged to leave the accommodation until 10 am, so the other guests can check in from 4 pm.",
-    "des6": "Kindly note that pets are not permitted on the premises.",
-    "title2": "Payment methods:"
+    "subtitle": "TERMS AND CONDITIONS",
+    "title": "Payment and Reservation Conditions",
+    "des2": "To secure the reservation, a 30% advance payment of the total price must be made directly to the property owner, with the remaining 70% payable upon arrival at the accommodation unit.",
+    "des3": "A refundable deposit of 500 euros is required if everything is in order.",
+    "des4": "Free cancellation is possible within a week after booking (EXCEPT FOR LAST MINUTE RESERVATIONS, THEN THE DEADLINE IS 48 HOURS). Last-minute reservations are made two weeks before the planned stay.",
+    "des5": "On the last day of stay, guests must leave the accommodation by 10 AM to allow other guests to check in from 4 PM.",
+    "des6": "Please note that pets are not allowed on the premises.",
+    "title2": "Payment Methods:"
   },
   "Villa_BookStay": {
     "des": "from",
@@ -264,28 +286,28 @@
     "button": "Book Your Stay"
   },
   "How_Reserve": {
-    "subtitle": "SECURE RESERVATION",
-    "title": "How do I reserve",
+    "subtitle": "SECURE YOUR RESERVATION",
+    "title": "How to Book",
     "steps": {
-      "title": "Send us an inquiry",
-      "des": "Please send us inquiry via contact form, email or phone with all required information and period you wish to spend a vacation in holiday home Villa Eni and expect fast e-mail answer and our best offer",
-      "title2": "Securing reservation (payment)",
-      "des2": "For your reservation to be secured it is obligation to pay 30% of the full amount in advance and rest of the amount on the day of arrival. After you make payment, please send us notification and we will send you confirmation of payment and booking. There are 2 options to make advance payment: bank transfer and via PayPal (debit and credit cards).",
+      "title": "Send Us an Inquiry",
+      "des": "Please send us an inquiry via the contact form, email, or phone with all the necessary information and the period you wish to spend your vacation in Villa Eni. Expect a quick response via email with our best offer.",
+      "title2": "Secure Reservation (Payment)",
+      "des2": "To secure the reservation, a 30% advance payment of the total amount is required, with the remainder payable on the day of arrival. After making the payment, please notify us, and we will send you a confirmation of payment and reservation. There are two options for advance payment: bank transfer and PayPal (debit and credit cards).",
       "subtitle": "Bank Transfer",
-      "span": "Account owner",
+      "span": "Account Owner",
       "span2": "Address",
       "span3": "Bank",
-      "title3": "Confirmation of payment",
-      "des3": "When payment is done, we will confirm your payment and reservation. Relax and await peacefully your vacation in summer and enjoy in your vacations in holiday home Villa Relax, Istria - Croatia!"
+      "title3": "Payment Confirmation",
+      "des3": "After making the payment, we will confirm your payment and reservation. Relax and wait for your vacation and enjoy your stay at Villa Relax, Istria - Croatia!"
     }
   },
   "Environs": {
-    "title": "Pula & Istria",
-    "des": "In our neighborhood, there are many restaurants such as \"Volaria\" and the Fishermen's Hut in Marina Veruda, offering a rich seafood menu, Pizzeria Jupiter, Boccaporta restaurant offering traditional Istrian cuisine, as well as Pivnica na Rivi. You can rent bicycles, mopeds, boats, cars, etc. On the main beach Verudela, you can rent a sports field for mini-golf and badminton, tennis, surfing, and even a parasailing boat or a small airplane. There is also a diving club. Similarly, at Verudela, there is Bunarina, from where a boat departs every hour to Fratarski Island. Boat excursions: Brijuni Islands (National Park) - departure by boat from the town of Fažana, 5 km away from Pula, Journey to Green and Blue Istria (Wine Road - wine tasting, agritourism). Rovinj is 30 km away from Pula, where you can see Croatia in miniature and visit a large aquarium. The Feštinsko Kraljevstvo near Pula (interesting cave), Entertainment center in Pula Green Garden (paintball, karting), Barrel Equestrian Club in Pula, Nightlife: disco Pietas, disco Uljanik, disco Cargo, Terrace with live music at Verudela and Zlatne Stijene, Events: At the Forum, the main city square (traditional and modern dances as well as live music, and at the Arena Amphitheater (concerts, film festivals).",
+    "title": "Zagreb and Surroundings",
+    "des": "Zagreb, the capital of Croatia, is known for its rich history, culture, and vibrant city life. The city center boasts many restaurants and cafes offering traditional Croatian dishes and international cuisine. Restaurants such as Vinodol, Agava, and Pivnica Medvedgrad are known for their quality and authentic dishes. Zagreb also offers a plethora of cultural and historical landmarks. Don’t miss visiting the Zagreb Cathedral, Upper Town, Museum of Broken Relationships, Croatian National Theatre, and Zrinjevac Park. Jarun and Maksimir are ideal for recreation and relaxation, while Medvednica is perfect for hiking. Additionally, Zagreb offers a vibrant nightlife with numerous bars, clubs, and music events.",
     "button": "Show Map",
-    "title2": "Getting around",
-    "des2": "You can reach the villa by car or taxi. Parking is free and available on site.",
-    "subtitle": "Attractions nearby"
+    "title2": "Getting Around",
+    "des2": "You can get around Zagreb on foot, by public transport, by bike, or by car. The city has a well-organized tram and bus network connecting all parts of the city. Taxis are also available, and many locations offer bike or car rentals. Parking is available in many places, including public parking lots and garages.",
+    "subtitle": "Nearby Attractions"
   },
   "PriceTable": {
     "title": "Period",
@@ -294,23 +316,23 @@
     "title4": "Min. Stay"
   },
   "Contact": {
-    "title": "Contact us",
+    "title": "Contact Us",
     "Contact_Form": {
       "name": "Name",
       "email": "Email",
       "phone": "Phone",
-      "home": "Holiday home",
+      "home": "Holiday Home",
       "adults": "Adults",
       "children": "Children",
       "arrival": "Arrival",
       "departure": "Departure",
       "message": "Inquiry",
-      "des": "The content of this form will be sent directly to the e-mail address of the owner of accommodation and is used exclusively for sending inquiries about booking of listed property.",
+      "des": "The content of this form will be sent directly to the property owner’s email address and is used exclusively for sending inquiries about booking the listed property.",
       "button": "Send Inquiry",
-      "sent": "Successfully sent"
+      "sent": "Successfully Sent"
     },
     "Contact_Info": {
-      "contact_person": "contact person",
+      "contact_person": "Contact Person",
       "mobile": "Mobile",
       "email": "Email",
       "address": "Address",
@@ -331,8 +353,8 @@
     "eleven": "November",
     "twelve": "December",
     "booked": "Booked",
-    "checkIn": "Check In",
-    "checkOut": "Check Out",
+    "checkIn": "Check-In",
+    "checkOut": "Check-Out",
     "reset": "Reset",
     "back": "Back",
     "next": "Next"

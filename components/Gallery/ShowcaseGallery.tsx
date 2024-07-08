@@ -3,7 +3,7 @@ import Image from "next/image";
 import { createContext, useContext, useState } from "react";
 import Gallery from "./Gallery";
 import { MdPhotoCamera } from "react-icons/md";
-import { PropertyGalleryLib } from "@/lib/property_gallery";
+import { PropertyGalleryLib } from "@/lib/Ludwig_gallery";
 import { useLocale } from "next-intl";
 import { getTitleData } from "@/lib/title";
 

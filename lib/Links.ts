@@ -9,16 +9,18 @@ type DataObject = {
 };
 
 import enData from "@/messages/en.json";
-import deData from "@/messages/de.json";
+// import deData from "@/messages/de.json";
 import hrData from "@/messages/hr.json";
-import itData from "@/messages/it.json";
+// import itData from "@/messages/it.json";
 
 const linksData: LinksData[] = [
-  { path: "/villa-relax" },
+  { path: "/apartment-ludwig" },
+  { path: "/apartment-benedikta" },
+  { path: "/room-lota" },
+  { path: "/room-ruta" },
   { path: "/pricelist" },
   { path: "/photogallery" },
   { path: "/environs" },
-  { path: "/contact" },
 
   // Define other image data similarly
 ];
@@ -41,13 +43,13 @@ export const NavigationLinksEn: DataObject = {
 };
 
 // You can also define a separate object for German translations if needed
-export const NavigationLinksDE: DataObject = {
-  NavData: replaceTitle(
-    linksData,
-    deData.Navigation.navlinks,
-    deData.Navigation.navLinksButton
-  ),
-};
+// export const NavigationLinksDE: DataObject = {
+//   NavData: replaceTitle(
+//     linksData,
+//     deData.Navigation.navlinks,
+//     deData.Navigation.navLinksButton
+//   ),
+// };
 
 export const NavigationLinksHR: DataObject = {
   NavData: replaceTitle(
@@ -57,24 +59,24 @@ export const NavigationLinksHR: DataObject = {
   ),
 };
 
-export const NavigationLinksIT: DataObject = {
-  NavData: replaceTitle(
-    linksData,
-    itData.Navigation.navlinks,
-    itData.Navigation.navLinksButton
-  ),
-};
+// export const NavigationLinksIT: DataObject = {
+//   NavData: replaceTitle(
+//     linksData,
+//     itData.Navigation.navlinks,
+//     itData.Navigation.navLinksButton
+//   ),
+// };
 
 export const getNavigationLinks = (language: string): DataObject => {
   switch (language) {
     case "en":
       return NavigationLinksEn;
-    case "de":
-      return NavigationLinksDE;
+    // case "de":
+    //   return NavigationLinksDE;
     case "hr":
       return NavigationLinksHR;
-    case "it":
-      return NavigationLinksIT;
+    // case "it":
+    //   return NavigationLinksIT;
     default:
       // Return default language if specified language is not found
       return NavigationLinksEn;

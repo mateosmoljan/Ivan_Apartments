@@ -77,7 +77,7 @@ function FourGallery({ mapButton, range }: Props) {
                 )
               )}
             </div>
-            {mapButton && (
+            {/* {mapButton && (
               <div className="flex justify-end">
                 <button
                   onClick={() => setShowMap(true)}
@@ -88,7 +88,7 @@ function FourGallery({ mapButton, range }: Props) {
                 </button>
                 {showMap && <GoogleMaps onClose={handleMapClose} />}
               </div>
-            )}
+            )} */}
           </div>
 
           {openFourGalleryContext && (

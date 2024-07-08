@@ -66,9 +66,10 @@ const Navbar = () => {
             height={40}
             className="object-contain"
           />
-          <p className="font-arbutus font-black text-2xl text-yellow">
-            <span className="text-dark_blue_black">Villa</span>
-            Relax
+          <p className="font-arbutus font-black text-2xl text-dark_blue_black">
+            Zagreb
+            <span className="text-yellow">Center</span>
+            Apartments
           </p>
         </Link>
 

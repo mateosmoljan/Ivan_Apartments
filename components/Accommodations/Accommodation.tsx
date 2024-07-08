@@ -1,6 +1,6 @@
 import { getAccommodationData } from "@/lib/acommodation";
-import PropertyCard from "./PropertyCard";
 import { useLocale } from "next-intl";
+import AllApartments from "./AllApartments";
 
 function Acommodation() {
   const localeActive = useLocale();
@@ -17,7 +17,7 @@ function Acommodation() {
           </h1>
         </div>
         <div className="w-full flex justify-center items-center">
-          <PropertyCard />
+          <AllApartments />
         </div>
       </div>
     </section>

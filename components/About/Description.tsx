@@ -1,5 +1,6 @@
 "use client";
 import { getAboutData } from "@/lib/About";
+import { link } from "fs";
 import { useLocale } from "next-intl";
 import { useState } from "react";
 import Markdown from "react-markdown";
@@ -14,12 +15,20 @@ function Description() {
 
   const displayText = isExpanded
     ? AboutData.des
-    : `${AboutData.des.slice(0, 280)}${
-        AboutData.des.length > 280 ? "..." : ""
-      }`;
+    : [
+        `${AboutData.des.join(" ").slice(0, 280)}${
+          AboutData.des.join(" ").length > 280 ? "..." : ""
+        }`,
+      ];
   return (
     <div>
-      <Markdown>{displayText}</Markdown>
+      <div className="flex flex-col gap-4">
+        {displayText.map((item, index) => (
+          <div key={index}>
+            <Markdown>{item}</Markdown>
+          </div>
+        ))}
+      </div>
       <div className="w-full flex justify-end">
         <span
           onClick={handleToggle}

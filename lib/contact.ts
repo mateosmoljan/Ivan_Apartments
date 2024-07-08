@@ -24,9 +24,9 @@ type DataObject = {
 };
 
 import enData from "@/messages/en.json";
-import deData from "@/messages/de.json";
+// import deData from "@/messages/de.json";
 import hrData from "@/messages/hr.json";
-import itData from "@/messages/it.json";
+// import itData from "@/messages/it.json";
 
 const createTitle = (
   title?: string,
@@ -96,26 +96,25 @@ export const TitleDataEn: DataObject = {
   ],
 };
 
-// You can also define a separate object for German translations if needed
-export const TitleDataDE: DataObject = {
-  data: [
-    createTitle(
-      deData.Contact.title,
-      deData.Contact.Contact_Form.name,
-      deData.Contact.Contact_Form.email,
-      deData.Contact.Contact_Form.phone,
-      deData.Contact.Contact_Form.message,
-      deData.Contact.Contact_Form.des,
-      deData.Contact.Contact_Form.button,
-      deData.Contact.Contact_Form.sent,
-      deData.Contact.Contact_Info.contact_person,
-      deData.Contact.Contact_Info.mobile,
-      deData.Contact.Contact_Info.email,
-      deData.Contact.Contact_Info.address,
-      deData.Contact.Contact_Info.we_speak
-    ),
-  ],
-};
+// export const TitleDataDE: DataObject = {
+//   data: [
+//     createTitle(
+//       deData.Contact.title,
+//       deData.Contact.Contact_Form.name,
+//       deData.Contact.Contact_Form.email,
+//       deData.Contact.Contact_Form.phone,
+//       deData.Contact.Contact_Form.message,
+//       deData.Contact.Contact_Form.des,
+//       deData.Contact.Contact_Form.button,
+//       deData.Contact.Contact_Form.sent,
+//       deData.Contact.Contact_Info.contact_person,
+//       deData.Contact.Contact_Info.mobile,
+//       deData.Contact.Contact_Info.email,
+//       deData.Contact.Contact_Info.address,
+//       deData.Contact.Contact_Info.we_speak
+//     ),
+//   ],
+// };
 
 export const TitleDataHR: DataObject = {
   data: [
@@ -137,38 +136,37 @@ export const TitleDataHR: DataObject = {
   ],
 };
 
-export const TitleDataIT: DataObject = {
-  data: [
-    createTitle(
-      itData.Contact.title,
-      itData.Contact.Contact_Form.name,
-      itData.Contact.Contact_Form.email,
-      itData.Contact.Contact_Form.phone,
-      itData.Contact.Contact_Form.message,
-      itData.Contact.Contact_Form.des,
-      itData.Contact.Contact_Form.button,
-      itData.Contact.Contact_Form.sent,
-      itData.Contact.Contact_Info.contact_person,
-      itData.Contact.Contact_Info.mobile,
-      itData.Contact.Contact_Info.email,
-      itData.Contact.Contact_Info.address,
-      itData.Contact.Contact_Info.we_speak
-    ),
-  ],
-};
+// export const TitleDataIT: DataObject = {
+//   data: [
+//     createTitle(
+//       itData.Contact.title,
+//       itData.Contact.Contact_Form.name,
+//       itData.Contact.Contact_Form.email,
+//       itData.Contact.Contact_Form.phone,
+//       itData.Contact.Contact_Form.message,
+//       itData.Contact.Contact_Form.des,
+//       itData.Contact.Contact_Form.button,
+//       itData.Contact.Contact_Form.sent,
+//       itData.Contact.Contact_Info.contact_person,
+//       itData.Contact.Contact_Info.mobile,
+//       itData.Contact.Contact_Info.email,
+//       itData.Contact.Contact_Info.address,
+//       itData.Contact.Contact_Info.we_speak
+//     ),
+//   ],
+// };
 
 export const getContactData = (language: string): DataObject => {
   switch (language) {
     case "en":
       return TitleDataEn;
-    case "de":
-      return TitleDataDE;
+    // case "de":
+    //   return TitleDataDE;
     case "hr":
       return TitleDataHR;
-    case "it":
-      return TitleDataIT;
+    // case "it":
+    //   return TitleDataIT;
     default:
-      // Return default language if specified language is not found
       return TitleDataEn;
   }
 };

@@ -19,35 +19,35 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Villa Relax",
+  title: "Zagreb Center Apartments",
   description:
-    "Welcome to Villa Relax, your luxurious accommodation in Pula. Experience breathtaking views, modern amenities, and personalized service. ⭐⭐⭐⭐⭐",
+    "Welcome to Zagreb Center Apartments, your luxurious accommodation in the heart of Zagreb. Experience modern amenities, stylish interiors, and exceptional service. ⭐⭐⭐⭐⭐",
   icons: {
     icon: "/assets/images/logo.png",
   },
   generator: "Next.js",
-  applicationName: "Accommodation Villa Relax",
+  applicationName: "Zagreb Center Apartments",
   referrer: "origin-when-cross-origin",
-  keywords: ["Accommodation", "Villa Relax", "Pula", "Istria", "Croatia"],
+  keywords: ["Accommodation", "Zagreb Center Apartments", "Zagreb", "Croatia"],
   robots: "index, follow",
   viewport: "width=device-width, initial-scale=1.0",
   openGraph: {
     type: "website",
-    title: "Accommodation Villa Relax - Pula",
+    title: "Zagreb Center Apartments",
     description:
-      "Welcome to Villa Relax, your luxurious accommodation in Pula. Experience breathtaking views, modern amenities, and personalized service. ⭐⭐⭐⭐⭐",
-    url: "https://villarelaxistra.com",
+      "Welcome to Zagreb Center Apartments, your luxurious accommodation in the heart of Zagreb. Experience modern amenities, stylish interiors, and exceptional service. ⭐⭐⭐⭐⭐",
+    url: "https://zagrebcenterapartments.com",
   },
   twitter: {
     card: "summary_large_image",
     // site: "@YourTwitterHandle",
-    title: "Accommodation Villa Relax - Pula",
+    title: "Zagreb Center Apartments",
     description:
-      "Welcome to Villa Relax, your luxurious accommodation in Pula. Experience breathtaking views, modern amenities, and personalized service. ⭐⭐⭐⭐⭐",
+      "Welcome to Zagreb Center Apartments, your luxurious accommodation in the heart of Zagreb. Experience modern amenities, stylish interiors, and exceptional service. ⭐⭐⭐⭐⭐",
     images: [
       {
-        url: "https://www.villarelaxpula.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmain.72f90314.jpg&w=3840&q=75",
-        alt: "Villa Relax",
+        url: "https://www.zagrebcenterapartments.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmain.72f90314.jpg&w=3840&q=75",
+        alt: "Zagreb Center Apartments",
       },
     ],
   },

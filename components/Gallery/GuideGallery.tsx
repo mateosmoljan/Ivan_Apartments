@@ -12,7 +12,7 @@ import { NextArrow, PrevArrow } from "./SwiperNavButtons";
 import { useShowcaseGallery2Context } from "./ShowcaseGallery2";
 import { useGalleryContext } from "../PropertyGallery/PropertyGallery";
 import { useFourGalleryContext } from "./FourGallery";
-import { PropertyGalleryLib } from "@/lib/property_gallery";
+import { PropertyGalleryLib } from "@/lib/Ludwig_gallery";
 import { TouristImageData } from "@/lib/TouristImageData";
 
 interface Props {

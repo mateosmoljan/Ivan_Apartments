@@ -55,7 +55,7 @@ export default function HeadSwiper() {
                   <h1 className="text-white font-arbutus text-center text-3xl font-bold">
                     {image.title}
                   </h1>
-                  <p className="text-white">{image.des}</p>
+                  <p className="text-white text-center">{image.des}</p>
                   <a href="#about">
                     <button className="btn">
                       {image.button}{" "}

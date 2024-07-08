@@ -24,7 +24,7 @@ function Contact() {
       </div>
 
       <div className="h-[550px] mt-10 rounded-md overflow-hidden">
-        <IFrameMaps />
+        {/* <IFrameMaps location/> */}
       </div>
     </section>
   );

@@ -18,7 +18,7 @@ function Home() {
         <Distances />
         <Acommodation />
         <Photogalleries />
-        <TouristGuide />
+        {/* <TouristGuide /> */}
         <div className="mb-24">
           <SendMessage />
         </div>

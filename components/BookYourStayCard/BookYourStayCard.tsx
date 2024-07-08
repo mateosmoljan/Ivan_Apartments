@@ -2,7 +2,11 @@ import { getBookStayData } from "@/lib/bookStay";
 import { useLocale } from "next-intl";
 import { Link } from "@/navigation";
 
-function BookYourStayCard() {
+type props = {
+  money: number;
+};
+
+function BookYourStayCard({ money }: props) {
   const localeActive = useLocale();
   const BookStayData = getBookStayData(localeActive);
   return (
@@ -11,7 +15,7 @@ function BookYourStayCard() {
     >
       <p className="font-poppins text-grey font-ExtraBold text-center lg:text-right">
         {BookStayData.data[0].des}{" "}
-        <span className="text-3xl text-yellow">250 €</span>{" "}
+        <span className="text-3xl text-yellow">{money} €</span>{" "}
         {BookStayData.data[0].des2}
       </p>
       <hr />

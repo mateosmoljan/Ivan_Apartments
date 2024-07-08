@@ -1,9 +1,8 @@
 import { StaticImageData } from "next/image";
 
-import one from "@/public/assets/images/outside/main.jpg";
-import two from "@/public/assets/images/inside/pri/1.jpg";
-import three from "@/public/assets/images/inside/po/5.jpg";
-import four from "@/public/assets/images/outside/13.jpg";
+import one from "@/public/assets/images/Ludwig/39.jpg";
+import two from "@/public/assets/images/Benedikta/21.jpg";
+import three from "@/public/assets/images/Lota/7.jpeg";
 
 type LocationData = {
   src: StaticImageData;
@@ -18,16 +17,15 @@ type DataObject = {
 };
 
 import enData from "@/messages/en.json";
-import deData from "@/messages/de.json";
+// import deData from "@/messages/de.json";
 import hrData from "@/messages/hr.json";
-import itData from "@/messages/it.json";
+// import itData from "@/messages/it.json";
 
 // Define image data
 const imageData: LocationData[] = [
-  { src: one, alt: "Welcome Villa Relax Istra" },
-  { src: two, alt: "Big dinig table Villa Relax Istra" },
-  { src: three, alt: "Fireplace Villa Panorama Istra" },
-  { src: four, alt: "Dinning table Villa Panorama Istra" },
+  { src: one, alt: "Ludwig Center" },
+  { src: two, alt: "Benedikt with Parking" },
+  { src: three, alt: "Ruta & Lota - Bus Proximity" },
   // Define other image data similarly
 ];
 
@@ -56,15 +54,14 @@ export const HeadSwiperLibEN: DataObject = {
   ),
 };
 
-// You can also define a separate object for German translations if needed
-export const HeadSwiperLibDE: DataObject = {
-  images: replaceTitlesAndDescriptions(
-    imageData,
-    deData.HeaderSwiper.titles,
-    deData.HeaderSwiper.descriptions,
-    deData.HeaderSwiper.button
-  ),
-};
+// export const HeadSwiperLibDE: DataObject = {
+//   images: replaceTitlesAndDescriptions(
+//     imageData,
+//     deData.HeaderSwiper.titles,
+//     deData.HeaderSwiper.descriptions,
+//     deData.HeaderSwiper.button
+//   ),
+// };
 
 export const HeadSwiperLibHR: DataObject = {
   images: replaceTitlesAndDescriptions(
@@ -75,25 +72,25 @@ export const HeadSwiperLibHR: DataObject = {
   ),
 };
 
-export const HeadSwiperLibIT: DataObject = {
-  images: replaceTitlesAndDescriptions(
-    imageData,
-    itData.HeaderSwiper.titles,
-    itData.HeaderSwiper.descriptions,
-    itData.HeaderSwiper.button
-  ),
-};
+// export const HeadSwiperLibIT: DataObject = {
+//   images: replaceTitlesAndDescriptions(
+//     imageData,
+//     itData.HeaderSwiper.titles,
+//     itData.HeaderSwiper.descriptions,
+//     itData.HeaderSwiper.button
+//   ),
+// };
 
 export const getHeadSwiperLib = (language: string): DataObject => {
   switch (language) {
     case "en":
       return HeadSwiperLibEN;
-    case "de":
-      return HeadSwiperLibDE;
+    // case "de":
+    //   return HeadSwiperLibDE;
     case "hr":
       return HeadSwiperLibHR;
-    case "it":
-      return HeadSwiperLibIT;
+    // case "it":
+    //   return HeadSwiperLibIT;
     default:
       return HeadSwiperLibEN; // Default to English
   }

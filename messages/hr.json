@@ -1,113 +1,182 @@
 {
   "Titles": {
-    "homepage_title": "Vila Relax - Pula",
-    "Villa_Relax": "Vila za odmor Vila Relax",
+    "homepage_title": "Centar Apartmani - Zagreb",
+    "home": "Apartmani u centru Zagreba",
     "Villa_Map_Location": "Lokacija na karti",
     "Availability_Calendar": "Kalendar raspoloživosti",
     "Availability_Appointments_sub": "DOSTUPNI TERMINI",
-    "Price_list": "Cjenik Vila Relax",
-    "Photogallery": "Fotogalerija Vila Relax, Pula",
-    "Surrondings": "Pula i okolica",
-    "Surrondings_sub": "PULA & ISTRA"
+    "Price_list": {
+      "Lota": "Cjenik Lota",
+      "Ruta": "Cjenik Ruta",
+      "Ludwig": "Cjenik Ludwiga",
+      "Benedikta": "Cjenik Benedikta"
+    },
+    "Photogallery": {
+      "Lota": "Fotogalerija Soba Lota, Zagreb",
+      "Ruta": "Fotogalerija Soba Ruta, Zagreb",
+      "Ludwig": "Fotogalerija Apartman Ludwiga, Pula",
+      "Benedikta": "Fotogalerija Apartman Benedikta, Zagreb"
+    }
   },
   "Buttons": {
     "Show_Gallery": "Prikaži galeriju"
   },
   "Navigation": {
-    "navlinks": ["Vila Relax", "Cjenik", "Fotogalerija", "Okolina", "Kontakt"],
+    "navlinks": [
+      "Apartman Lodwig",
+      "Apartman Benedikta",
+      "Soba Lota",
+      "Soba Ruta",
+      "Cjenik",
+      "Fotogalerija",
+      "Okolina"
+    ],
     "navLinksButton": "Rezerviraj"
   },
 
   "HeaderSwiper": {
     "titles": [
-      "Dobrodošli u Vilu Relax - Pula",
-      "Moderan dizajn i prostrani blagovaonski stol",
-      "Ognjište za bijeg",
-      "Aqua oaza"
+      "Ludwig Centar",
+      "Benedikt sa Parkingom",
+      "Ruta & Lota - Blizina Autobusa"
     ],
     "descriptions": [
-      "Tranquil Oasis Vila",
-      "Uživajte u ugodnim okupljanjima oko velikog blagovaonskog stola",
-      "Ugodno utočište gdje vam prigušene vatre i toplina pružaju zagrljaj, pozivajući vas na opuštanje i mirnost usred nježnog sjaja plamenih iskri.",
-      "Moderan odmor s privatnim bazenom, usađen u zagrljaju prirode"
+      "Doživite Zagreb iz prvog reda! Naš apartman Ludwig nalazi se u samom centru grada, idealan za istraživanje svih glavnih atrakcija.",
+      "Udoban apartman Benedikt s osiguranim parkingom, samo nekoliko minuta hoda od glavnog kolodvora, savršen za putnike.",
+      "Ruta & Lota apartmani smješteni blizu autobusnog kolodvora i shuttlea za aerodrom, pružaju praktičnost i udobnost za vaš boravak."
     ],
     "button": "Saznajte više"
   },
 
   "About": {
-    "title": "Pregled",
-    "des": "Vila se nalazi u mirnoj ulici turističkog naselja grada Pule. Udaljena je 900 m od mora. Prva glavna plaža Verudela je odlična, udaljena samo 3 minute vožnje. Kafić je udaljen 20 metara, a trgovina 100 metara od kuće. Kuća je izuzetno udobna i stilski namještena, prilagođena modernom načinu života. Dostupna je za 14 osoba + 2 dodatna kreveta. Unutarnji prostor zauzima 500 četvornih metara, a 2000 četvornih metara prirodne parcele pruža dodatnu atmosferu. Na travnjaku se nalaze nogometni golovi, trampolin, ljuljačka i ognjište.",
-    "guest_access": {
-      "title": "Pristup gostima",
-      "des": "Jacuzzi, sauna, fitness, bicikli, karaoke, bilijar, nogomet, strelice."
-    },
+    "title": "Luksuzni Apartmani u Centru Zagreba",
+    "des": [
+      "## Luksuzni **Apartmani** u Centru Zagreba",
+      "Otkrijte naše vrhunske apartmane u srcu Zagreba, savršene za vaš boravak.",
+      "**Ludwig Centar** – Smješten u samom centru, s besplatnim WiFi-jem, klima-uređajem, sigurnošću, dječjim igralištem, fitness dvoranom, te mogućnošću najma bicikala i automobila. Blizu Glavnog kolodvora, Cvjetnog trga i Botaničkog vrta.",
+      "**Benedikt Parking** – Udoban apartman s osiguranim privatnim parkingom, besplatnim WiFi-jem i klima-uređajem, nekoliko minuta hoda od glavnog kolodvora. Blizu King Tomislav Square-a, Arheološkog muzeja i Botaničkog vrta.",
+      "**Art rooms Lota & Ruta** – Blizu autobusnog kolodvora i shuttlea za aerodrom, s besplatnim WiFi-jem, klima-uređajem i privatnim ulazom. U blizini Arheološkog muzeja, King Tomislav Square-a i Cvjetnog trga.",
+      "Rezervirajte sada i uživajte u luksuzu, udobnosti i praktičnosti naših apartmana!"
+    ],
     "locations": {
       "title": "Što posjetiti i vidjeti:",
       "des": [
-        "- Vodeni zabavni park Aquacolors.",
-        "- Istražite prekrasne otoke Nacionalnog parka Brijuni, bogate prirodnom ljepotom i kulturnom baštinom.",
-        "- Otkrijte drevni rimski amfiteatar u Puli, jedan od najbolje očuvanih rimskih amfiteatara na svijetu.",
-        "- Zaronite u podvodni svijet u Akvariju Pula, smještenom blizu centra grada. Istražite različite morske habitate, promatrajte raznolike morske vrste i saznajte o važnosti očuvanja mora.",
-        "- Doživite uzbudljive tobogane, spore rijeke i opuštajuće bazene u akvaparku Istralandia, smještenom blizu Novigrada. Savršeno za obitelji i ljubitelje vode, ovaj akvapark nudi zabavan dan za sve uzraste."
+        "Istražite Trg bana Jelačića, glavni trg u Zagrebu, središte svih događanja u gradu.",
+        "Prošetajte kroz Gornji grad, povijesnu jezgru Zagreba, s uskim ulicama, starim kućama i prekrasnim pogledom na grad.",
+        "Posjetite Katedralu Uznesenja Blažene Djevice Marije, najpoznatiju zagrebačku katedralu i jednu od najviših građevina u Hrvatskoj.",
+        "Uživajte u ljepotama Botaničkog vrta, mirne oaze u centru grada s bogatom zbirkom biljaka.",
+        "Razgledajte Muzej prekinutih veza, jedinstveni muzej posvećen propalim ljubavnim vezama i predmetima koje su bivši partneri ostavili za sobom.",
+        "Otkrijte Zagrebački Zoološki vrt, smješten u prekrasnom parku Maksimir, idealno mjesto za obitelji i ljubitelje životinja.",
+        "Posjetite Muzej Mimara, s bogatom zbirkom umjetnina i kulturnih artefakata iz cijelog svijeta.",
+        "Prošećite po Dolcu, najpoznatijoj tržnici u Zagrebu, gdje možete kupiti svježe namirnice i lokalne proizvode."
       ]
     }
   },
   "Distances": {
-    "title": "Udaljenosti od Ville Relax",
-    "button": "Prikaži kartu",
-    "place": [
-      "More",
-      "Plaža",
-      "Trgovina prehrambenim proizvodima",
-      "Restoran",
-      "Banka / Bankomat",
-      "Ljekarna",
-      "Bolnica / Dom zdravlja",
-      "Pošta",
-      "Benzinska postaja",
-      "Sportski tereni",
-      "Željeznička stanica",
-      "Zračna luka"
-    ]
+    "Ludwig": {
+      "title": "Udaljenosti od Apartmana Ludwig",
+      "button": "Prikaži kartu",
+      "place": [
+        "Glavni željeznički kolodvor: **0.5 km**",
+        "Trg bana Jelačića: **1 km**",
+        "Botanički vrt: **1.3 km**",
+        "Zagrebačka katedrala: **1.5 km**"
+      ]
+    },
+    "Benedikt": {
+      "title": "Udaljenosti od Apartmana Benedikta",
+      "button": "Prikaži kartu",
+      "place": [
+        "Glavni željeznički kolodvor: **0.3 km**",
+        "King Tomislav Square: **0.4 km**",
+        "Arheološki muzej Zagreb: **0.5 km**",
+        "Botanički vrt Zagreb: **1.2 km**"
+      ]
+    },
+    "Lota_Ruta": {
+      "title": "Udaljenosti od Art rooms Lota & Ruta",
+      "button": "Prikaži kartu",
+      "place": [
+        "Glavni autobusni kolodvor: **0.7 km**",
+        "Trg kralja Tomislava: **0.8 km**",
+        "Cvjetni trg: **1 km**",
+        "Muzej prekinutih veza Zagreb: **1.5 km**"
+      ]
+    }
   },
   "Acommodation": {
     "subtitle": "SMJEŠTAJ",
-    "title": "Nudimo vam 1 vilu",
-    "card_title": "Villa Relax",
-    "card_des": "Maksimalno 16 osoba",
-    "card_des2": "Cijena od",
-    "card_des3": "po noći"
+    "title": "Nudimo vam 2 Apartmana i 2 Sobe",
+    "Ludwig": {
+      "card_title": "Apartman Ludwig",
+      "card_des": "Prostire se za maksimalno 6 osoba",
+      "card_des2": "Cijena od",
+      "card_des3": "po noći",
+      "money": "60 €"
+    },
+    "Benedikt": {
+      "card_title": "Apartman Benedikt",
+      "card_des": "Prostire se za maksimalno 4 osobe",
+      "card_des2": "Cijena od",
+      "card_des3": "po noći",
+      "money": "60 €"
+    },
+    "Lota": {
+      "card_title": "Art room Lota",
+      "card_des": "Prostire se za maksimalno 3 osobe",
+      "card_des2": "Cijena od",
+      "card_des3": "po noći",
+      "money": "60 €"
+    },
+    "Ruta": {
+      "card_title": "Art room Ruta",
+      "card_des": "Prostire se za maksimalno 3 osobe",
+      "card_des2": "Cijena od",
+      "card_des3": "po noći",
+      "money": "60 €"
+    }
   },
   "Photogalleries": {
     "subtitle": "FOTOGALERIJE",
-    "title": "Odaberite fotografije iz Ville Relax",
+    "title": {
+      "Ludwig": "Fotogalerija Apartmana Ludwig",
+      "Benedikt": "Fotogalerija Apartmana Benedikt",
+      "Lota": "Fotogalerija Art room Lota",
+      "Ruta": "Fotogalerija Art room Ruta"
+    },
     "button": "Prikaži fotogaleriju"
   },
   "Tourist_Guide": {
     "subtitle": "TURISTIČKI VODIČ",
     "title": "Što posjetiti, vidjeti i raditi?",
     "image_des": [
-      "Najveći u Hrvatskoj",
-      "Nacionalni park",
-      "Vodeni park",
-      "Događaji",
-      "Vodeni park",
-      "skakanje s plaže/stijena"
+      "Trg bana Jelačića",
+      "Gornji grad",
+      "Botanički vrt",
+      "Muzej prekinutih veza",
+      "Zagrebački Zoološki vrt",
+      "Dolac - najpoznatija tržnica"
     ]
   },
   "Send_Message": {
-    "des": "Molimo **pošaljite** nam odgovor ako želite pripadati Villi Relax u Puli i osigurati svoju rezervaciju?",
+    "des": "Molimo **pošaljite** nam odgovor ako želite pripadati Apartmanima u Centru Zagreba i osigurati svoju rezervaciju?",
     "button": "Pošaljite poruku"
   },
   "Footer": {
-    "year": "©2024 . Villa Relax - Pula",
+    "year": "©2024 . Centar Apartmani - Zagreb",
     "rights": "Sva prava pridržana",
     "created_by": "Web stranica od BoostWeb",
     "Discover": {
       "title": "Otkrijte",
       "list": {
-        "Pula": "Pula Info",
-        "Guide": "Turistički vodič Istra"
+        "Zagreb": {
+          "name": "Zagreb Info",
+          "link": "https://www.zagreb.hr/"
+        },
+        "Guide": {
+          "name": "Turistički vodič Zagreb",
+          "link": "https://www.infozagreb.hr/"
+        }
       }
     },
     "Contact_Us": {
@@ -117,126 +186,86 @@
   "Categorization": {
     "title": ["Kategorizacija", "Kapacitet", "Veličina", "Vrt"]
   },
-  "Villa_Description": {
-    "des": "Villa se nalazi u mirnoj ulici turističkog naselja grada Pule. Udaljena je 900 m od mora. Prva glavna plaža Verudela izvrsna je, udaljena samo 3 minute vožnje. Kafić je udaljen 20 metara, a trgovina je udaljena 100 metara od kuće. Kuća je izuzetno udobna i stilski namještena, prilagođena modernom načinu života. Dostupna je za 14 osoba + 2 pomoćna kreveta. Unutarnji prostor zauzima 500 četvornih metara i 2000 četvornih metara prirodnog zemljišta, što pruža dodatnu atmosferu. Travnjak ima nogometne golove, trampolin, ljuljačku i kamin.",
+
+  "Apartment_Ludwig_Des": {
+    "des": "Apartman Ludwig se nalazi u samom centru Zagreba, u blizini glavnog željezničkog kolodvora. Ova luksuzna nekretnina prostire se na 300 četvornih metara i nudi udoban smještaj za do 6 osoba. Apartman je moderno namješten i opremljen svim potrebnim sadržajima za ugodan boravak.",
     "subtitle": "Prostor",
-    "des2": "Na prizemlju objekta nalazi se prostrani dnevni boravak s kuhinjom i blagovaonicom modernog dizajna, koji vodi na veliku terasu od 100 četvornih metara gdje se nalaze vrtni namještaj i paviljon. Također na prizemlju je wellness zona, s koje se pruža pogled na bazen, terase i zelenilo kroz velike staklene zidove. Bazen je veličine 48 četvornih metara, s plitkim područjem za djecu (0,5 metara duboko) i dubljim područjem za odrasle (1,5 metara duboko), opremljen hidromasažom. Područje aktivnosti prostire se kroz cijelo podrum kuće, s dodatnom kuhinjom i kaminom koji upotpunjuje doživljaj. U podrumu, nalazi se i garaža s 2 parkirna mjesta i 6 bicikala za gradsku vožnju, dok potpuno ograđeno zemljište nudi još 4 parkirna mjesta. Na gornjem katu kuće, nalazi se studij, 4 spavaće sobe s kupaonicama, svaka s pristupom terasi, i 1 potkrovlje. Kuća je klimatizirana, a sve sobe imaju centralno grijanje. Osim unutarnjeg stubišta, katovi su povezani dizalom. Velike natkrivene terase dodatno ističu ovu nekretninu. Kuća se nalazi blizu marine, kao i svih ostalih zanimljivih sadržaja, uključujući centar antičke Pule, koji obiluje kulturnim i povijesnim znamenitostima.",
+    "des2": "Apartman Ludwig uključuje prostrani dnevni boravak s potpuno opremljenom kuhinjom, blagovaonicom i pristupom terasi. Uz to, gosti mogu uživati u wellness zoni s pogledom na bazen, terase i zelenilo. Bazen je opremljen hidromasažom i idealan je za opuštanje.",
     "subtitle2": "Pristup gostima",
-    "des3": "Gosti mogu koristiti 6 spavaćih soba, 2 dnevna boravka, 2 kuhinje, 8 kupaonica, balkone, terasu, prostoriju za ljepotu, igraonicu/ljetnu kuhinju, prostoriju s perilicom rublja i glačalom, bazen, travnjak, vrt, dječje igralište i cijeli vanjski prostor."
+    "des3": "Gosti mogu koristiti 3 spavaće sobe, dva moderna dnevna boravka, potpuno opremljene kuhinje, više kupaonica, terase te pristup bazenu i ostalim vanjskim sadržajima."
   },
-  "Villa_Features": {
+  "Apartment_Benedikt_Des": {
+    "des": "Apartman Benedikt se nalazi u centru Zagreba, samo nekoliko minuta hoda od glavnog željezničkog kolodvora. Ovaj udoban apartman nudi smještaj za do 4 osobe i idealan je za obitelji ili manje grupe koje žele istražiti grad.",
+    "subtitle": "Prostor",
+    "des2": "Apartman Benedikt uključuje prostrani dnevni boravak, potpuno opremljenu kuhinju, udobne spavaće sobe i modernu kupaonicu. Gosti mogu uživati u osiguranom privatnom parkingu i blizini glavnih turističkih atrakcija Zagreba.",
+    "subtitle2": "Pristup gostima",
+    "des3": "Gosti mogu koristiti 1 spavaću sobu, dnevni boravak, kuhinju, kupaonicu, osigurani privatni parking te pristup obližnjim znamenitostima i sadržajima."
+  },
+  "Room_Lota_Des": {
+    "des": "Art rooms Lota smješteni su u centru Zagreba, u blizini glavnog autobusnog kolodvora i shuttlea za aerodrom. Ovaj moderno uređen apartman nudi udoban smještaj za do 3 osobe.",
+    "subtitle": "Prostor",
+    "des2": "Apartman Lota uključuje udoban dnevni boravak, potpuno opremljenu kuhinju, modernu kupaonicu i privatni ulaz. Gosti mogu uživati u besplatnom WiFi-ju i klima-uređaju te pristupu blizini glavnih turističkih atrakcija Zagreba.",
+    "subtitle2": "Pristup gostima",
+    "des3": "Gosti mogu koristiti spavaću sobu, dnevni boravak, kuhinju, kupaonicu, privatni ulaz te pristup obližnjim znamenitostima i sadržajima u centru Zagreba."
+  },
+  "Room_Ruta_Des": {
+    "des": "Art rooms Ruta smješteni su u centru Zagreba, u blizini glavnog autobusnog kolodvora i shuttlea za aerodrom. Ovi moderno uređeni apartmani nude udoban smještaj za do 3 osobe po apartmanu.",
+    "subtitle": "Prostor",
+    "des2": "Svaki apartman uključuje udoban dnevni boravak, potpuno opremljenu kuhinju, modernu kupaonicu i privatni ulaz. Gosti mogu uživati u besplatnom WiFi-ju i klima-uređaju te pristupu blizini glavnih turističkih atrakcija Zagreba.",
+    "subtitle2": "Pristup gostima",
+    "des3": "Gosti mogu koristiti spavaću sobu, dnevni boravak, kuhinju, kupaonicu, privatni ulaz te pristup obližnjim znamenitostima i sadržajima u centru Zagreba."
+  },
+
+  "Features": {
     "title": "Značajke",
-    "title2": "Što ovaj prostor nudi",
-    "title3": "Kupaonica",
-    "title4": "Spavaća soba i praonica",
-    "title5": "Zabava",
-    "title6": "Obitelj",
-    "title7": "Grijanje i hlađenje",
-    "title8": "Kućna sigurnost",
-    "title9": "Internet i ured",
-    "title10": "Kuhinja i blagovaonica",
-    "title11": "Vanjski prostor",
-    "title12": "Parkiranje i objekti",
-    "title13": "Usluge",
-    "title14": "Nije uključeno",
-    "button": "Prikaži svih 43 pogodnosti",
-    "card": {
-      "title": [
-        "Sušilo za kosu",
-        "Topla voda",
-        "Perilica",
-        "Sušilica",
-        "Osnovno",
-        "Vješalice",
-        "Posteljina",
-        "Dodatni jastuci i deke",
-        "Zavjese za zamračenje",
-        "Glačalo",
-        "TV s kabelskom televizijom",
-        "Krevetić",
-        "Dječje knjige i igračke",
-        "Visoka stolica",
-        "Zaštite za kamin",
-        "Zaštite za prozore",
-        "Zaštite za utičnice",
-        "Sigurnosne ograde za bebe",
-        "Zaštite za kutove stolova",
-        "Klima uređaj",
-        "Unutarnji kamin",
-        "Grijanje",
-        "Aparat za gašenje požara",
-        "Prva pomoć",
-        "Wifi",
-        "Kuhinja",
-        "Hladnjak",
-        "Mikrovalna pećnica",
-        "Osnove za kuhanje",
-        "Posuđe i pribor za jelo",
-        "Perilica posuđa",
-        "Štednjak",
-        "Pećnica",
-        "Aparat za kavu",
-        "Pekač",
-        "Pribor za roštilj",
-        "Dvorište",
-        "Besplatno parkiranje u sklopu objekta",
-        "Bazen",
-        "Dozvoljeno odlaganje prtljage",
-        "Dozvoljeno pušenje",
-        "Dugoročni boravci dopušteni",
-        "Domaćin vas dočekuje",
-        "Protupožarni alarm",
-        "Detektor ugljičnog monoksida"
-      ],
-      "des": [
-        "",
-        "",
-        "",
-        "",
-        "Ručnici, posteljina, sapun i toaletni papir",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "Prostor gdje gosti mogu kuhati vlastite obroke",
-        "",
-        "",
-        "Lonci i tave, ulje, sol i papar",
-        "Zdjele, štapići, tanjuri, šalice, itd.",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "Roštilj, drveni ugljen, bambusovi ražnjići/željezni ražnjići, itd.",
-        "Otvoren prostor na imanju obično prekriven travom",
-        "",
-        "",
-        "Za praktičnost gostiju kada imaju rani dolazak ili kasni odlazak",
-        "",
-        "Dopušten boravak 28 dana ili više",
-        "",
-        "Nema protupožarnog alarma na imanju.",
-        "Nema detektora ugljičnog monoksida na imanju."
-      ]
-    }
+    "Apartment_Ludwig": [
+      "Cijeli apartman",
+      "45 m² veličina",
+      "Besplatni WiFi",
+      "Obiteljske sobe",
+      "Sobe za nepušače",
+      "Klima-uređaj",
+      "Vlastita kupaonica",
+      "Pogled",
+      "Kuhinja",
+      "Kada"
+    ],
+    "Apartment_Benedikta": [
+      "Cijeli apartman",
+      "29 m² veličina",
+      "Besplatno parkiralište u sklopu objekta",
+      "Besplatni WiFi",
+      "Dozvoljeni ljubimci",
+      "Usluga prijevoza (besplatna)",
+      "Obiteljske sobe",
+      "Sobe za nepušače",
+      "Klima-uređaj",
+      "Vlastita kupaonica"
+    ],
+    "Room_Lota": [
+      "Besplatno parkiralište",
+      "Besplatni WiFi",
+      "Obiteljske sobe",
+      "Klima-uređaj",
+      "Vlastita kupaonica",
+      "Pogled",
+      "Kuhinja",
+      "Tuš kabina",
+      "TV ravnog ekrana"
+    ],
+    "Room_Ruta": [
+      "Besplatno parkiralište",
+      "Besplatni WiFi",
+      "Obiteljske sobe",
+      "Klima-uređaj",
+      "Vlastita kupaonica",
+      "Pogled",
+      "Kuhinja",
+      "Tuš kabina",
+      "TV ravnog ekrana"
+    ]
   },
+
   "Pricelist": {
     "title": "Cjenik",
     "subtitle": "*Cijena se odnosi na razdoblje od 4 noćenja u Eurima"
@@ -273,11 +302,11 @@
     }
   },
   "Environs": {
-    "title": "Pula i Istra",
-    "des": "U našem susjedstvu nalaze se mnogi restorani kao što su \"Volaria\" i Ribarova koliba u Marini Veruda, s bogatim jelovnikom plodova mora, Pizzeria Jupiter, restoran Boccaporta koji nudi tradicionalnu istarsku kuhinju, kao i Pivnica na Rivi. Možete unajmiti bicikle, mopede, čamce, automobile itd. Na glavnoj plaži Verudela možete unajmiti sportsko igralište za mini-golf i badminton, tenis, surfanje, pa čak i parasailing čamac ili mali avion. Tu je i ronilački klub. Slično je na Verudeli, tu je Bunarina, odakle svaki sat polazi čamac za otok Fratarski. Izleti brodom: Otoci Brijuni (Nacionalni park) - polazak brodom iz grada Fažane, udaljenog 5 km od Pule, Putovanje do Zelene i Plave Istre (Vinska cesta - degustacija vina, agroturizam). Rovinj je udaljen 30 km od Pule, gdje možete vidjeti Hrvatsku u malom i posjetiti veliki akvarij. Feštinsko Kraljevstvo blizu Pule (zanimljiva špilja), Zabavni centar u Puli Green Garden (paintball, karting), Konjički klub Barrel u Puli, Noćni život: disco Pietas, disco Uljanik, disco Cargo, Terasa s glazbom uživo na Verudeli i Zlatnim Stijenama, Događaji: Na Forumu, glavnom gradskom trgu (tradicionalni i moderni plesovi te glazba uživo, i u Areni Amfiteatar (koncerti, filmski festivali).",
+    "title": "Zagreb i okolica",
+    "des": "Zagreb, glavni grad Hrvatske, poznat je po svojoj bogatoj povijesti, kulturi i živahnom gradskom životu. U centru grada nalaze se mnogi restorani i kafići koji nude tradicionalna hrvatska jela i međunarodnu kuhinju. Restorani kao što su Vinodol, Agava, i Pivnica Medvedgrad poznati su po svojoj kvaliteti i autentičnim jelima. Zagreb također nudi mnoštvo kulturnih i povijesnih znamenitosti. Ne propustite posjetiti Zagrebačku katedralu, Gornji grad, Muzej prekinutih veza, Hrvatsko narodno kazalište i Park Zrinjevac. Jarun i Maksimir su idealna mjesta za rekreaciju i opuštanje, a Medvednica je savršena za planinarenje. Također, Zagreb nudi živahni noćni život s brojnim barovima, klubovima i glazbenim događanjima.",
     "button": "Prikaži kartu",
     "title2": "Kako se kretati",
-    "des2": "Do vile možete doći autom ili taksijem. Parking je besplatan i dostupan na licu mjesta.",
+    "des2": "Kroz Zagreb se možete kretati pješice, javnim prijevozom, biciklom ili automobilom. Grad ima dobro organiziranu mrežu tramvaja i autobusa koja povezuje sve dijelove grada. Taksiji su također dostupni, a mnoge lokacije nude i mogućnost najma bicikla ili automobila. Parking je dostupan na mnogim mjestima, uključujući javna parkirališta i garaže.",
     "subtitle": "Atrakcije u blizini"
   },
   "PriceTable": {

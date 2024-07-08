@@ -1,4 +1,4 @@
-import { PropertyGalleryLib } from "@/lib/property_gallery";
+import { PropertyGalleryLib } from "@/lib/Ludwig_gallery";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
