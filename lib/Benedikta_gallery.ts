@@ -34,7 +34,7 @@ import image31 from "@/public/assets/images/Benedikta/31.jpg";
 import image32 from "@/public/assets/images/Benedikta/32.jpg";
 import image33 from "@/public/assets/images/Benedikta/33.jpg";
 import image34 from "@/public/assets/images/Benedikta/34.jpg";
-
+// e
 type LocationData = {
   src: StaticImageData;
   alt: string;
