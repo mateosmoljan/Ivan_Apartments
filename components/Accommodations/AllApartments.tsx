@@ -15,7 +15,6 @@ function AllApartments() {
     dots: true,
     infinite: true,
     speed: 1000,
-    centerMode: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -28,57 +27,47 @@ function AllApartments() {
   const AccommodationsData = getAccommodationData(localeActive);
 
   return (
-    <div className="">
-      <Slider {...settings}>
-        <div>
-          <PropertyCard
-            props={{
-              card_title: AccommodationsData.data[0].Lodwig_card_title,
-              card_des: AccommodationsData.data[0].Lodwig_card_des,
-              card_des2: AccommodationsData.data[0].Lodwig_card_des2,
-              card_des3: AccommodationsData.data[0].Lodwig_card_des3,
-              money: AccommodationsData.data[0].Lodwig_money,
-              PropertyGallery: PropertyGalleryLib,
-            }}
-          />
-        </div>
-        <div>
-          <PropertyCard
-            props={{
-              card_title: AccommodationsData.data[0].Benedikt_card_title,
-              card_des: AccommodationsData.data[0].Benedikt_card_des,
-              card_des2: AccommodationsData.data[0].Benedikt_card_des2,
-              card_des3: AccommodationsData.data[0].Benedikt_card_des3,
-              money: AccommodationsData.data[0].Benedikt_money,
-              PropertyGallery: BenediktaGalleryLib,
-            }}
-          />
-        </div>
-        <div>
-          <PropertyCard
-            props={{
-              card_title: AccommodationsData.data[0].Lota_card_title,
-              card_des: AccommodationsData.data[0].Lota_card_des,
-              card_des2: AccommodationsData.data[0].Lota_card_des2,
-              card_des3: AccommodationsData.data[0].Lota_card_des3,
-              money: AccommodationsData.data[0].Lota_money,
-              PropertyGallery: LotaGalleryLib,
-            }}
-          />
-        </div>
-        <div>
-          <PropertyCard
-            props={{
-              card_title: AccommodationsData.data[0].Ruta_card_title,
-              card_des: AccommodationsData.data[0].Ruta_card_des,
-              card_des2: AccommodationsData.data[0].Ruta_card_des2,
-              card_des3: AccommodationsData.data[0].Ruta_card_des3,
-              money: AccommodationsData.data[0].Ruta_money,
-              PropertyGallery: RutaGalleryLib,
-            }}
-          />
-        </div>
-      </Slider>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <PropertyCard
+        props={{
+          card_title: AccommodationsData.data[0].Lodwig_card_title,
+          card_des: AccommodationsData.data[0].Lodwig_card_des,
+          card_des2: AccommodationsData.data[0].Lodwig_card_des2,
+          card_des3: AccommodationsData.data[0].Lodwig_card_des3,
+          money: AccommodationsData.data[0].Lodwig_money,
+          PropertyGallery: PropertyGalleryLib,
+        }}
+      />
+      <PropertyCard
+        props={{
+          card_title: AccommodationsData.data[0].Benedikt_card_title,
+          card_des: AccommodationsData.data[0].Benedikt_card_des,
+          card_des2: AccommodationsData.data[0].Benedikt_card_des2,
+          card_des3: AccommodationsData.data[0].Benedikt_card_des3,
+          money: AccommodationsData.data[0].Benedikt_money,
+          PropertyGallery: BenediktaGalleryLib,
+        }}
+      />
+      <PropertyCard
+        props={{
+          card_title: AccommodationsData.data[0].Lota_card_title,
+          card_des: AccommodationsData.data[0].Lota_card_des,
+          card_des2: AccommodationsData.data[0].Lota_card_des2,
+          card_des3: AccommodationsData.data[0].Lota_card_des3,
+          money: AccommodationsData.data[0].Lota_money,
+          PropertyGallery: LotaGalleryLib,
+        }}
+      />
+      <PropertyCard
+        props={{
+          card_title: AccommodationsData.data[0].Ruta_card_title,
+          card_des: AccommodationsData.data[0].Ruta_card_des,
+          card_des2: AccommodationsData.data[0].Ruta_card_des2,
+          card_des3: AccommodationsData.data[0].Ruta_card_des3,
+          money: AccommodationsData.data[0].Ruta_money,
+          PropertyGallery: RutaGalleryLib,
+        }}
+      />
     </div>
   );
 }

@@ -112,14 +112,14 @@
       "card_des": "Prostire se za maksimalno 6 osoba",
       "card_des2": "Cijena od",
       "card_des3": "po noći",
-      "money": "60 €"
+      "money": "75 €"
     },
     "Benedikt": {
       "card_title": "Apartman Benedikt",
       "card_des": "Prostire se za maksimalno 4 osobe",
       "card_des2": "Cijena od",
       "card_des3": "po noći",
-      "money": "60 €"
+      "money": "65 €"
     },
     "Lota": {
       "card_title": "Art room Lota",
@@ -133,7 +133,7 @@
       "card_des": "Prostire se za maksimalno 3 osobe",
       "card_des2": "Cijena od",
       "card_des3": "po noći",
-      "money": "60 €"
+      "money": "50 €"
     }
   },
   "Photogalleries": {
