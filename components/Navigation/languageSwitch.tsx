@@ -2,9 +2,9 @@ import { useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
 import React, { useTransition } from "react";
 import en_src from "@/public/assets/icons/flags/en.png";
-import de_src from "@/public/assets/icons/flags/de.png";
+// import de_src from "@/public/assets/icons/flags/de.png";
 import hr_src from "@/public/assets/icons/flags/hr.png";
-import it_src from "@/public/assets/icons/flags/it.png";
+// import it_src from "@/public/assets/icons/flags/it.png";
 import Image, { StaticImageData } from "next/image";
 import {
   FormControl,
@@ -34,9 +34,9 @@ function LanguageSwitch() {
 
   const languageLabels: LanguageLabel[] = [
     { code: "en", src: en_src },
-    { code: "de", src: de_src },
+    // { code: "de", src: de_src },
     { code: "hr", src: hr_src },
-    { code: "it", src: it_src },
+    // { code: "it", src: it_src },
   ];
 
   return (
