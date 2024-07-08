@@ -58,7 +58,7 @@ function Footer() {
           <ul className="space-y-4">
             <li>Ivan Ožegović</li>
             <li>+(385) 98 130 1691</li>
-            <li>zagrebcenterapartmentsinfo@gmail.com</li>
+            <li>Ivanozegovic23@gmail.com</li>
           </ul>
         </div>
       </div>

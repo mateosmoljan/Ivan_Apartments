@@ -8,7 +8,7 @@ function ContactInfo() {
     <section className="sticky top-14 sm:px-3">
       <div className=" rounded-md custom_border shadow-md px-4 pt-8 pb-5 hover:shadow-xl">
         <div className="ml-4 mb-4">
-          <h2 className="mb-4 font-titleBold text-xl">Sandra Smoljan</h2>
+          <h2 className="mb-4 font-titleBold text-xl">Ivan Ožegović</h2>
           <span className="text-sm">
             ( {/* {ContactData.data[0].contact_person} */}
             contact person )
@@ -16,23 +16,23 @@ function ContactInfo() {
         </div>
         <div>
           <ul className="flex flex-col gap-3">
-            <li>
-              {/* {ContactData.data[0].address} */}
-              Address:{" "}
+            {/* <li> */}
+            {/* {ContactData.data[0].address} */}
+            {/* Address:{" "}
               <span className="font-Bold">
                 Schiavuzzijev prilaz 36, 52100 Pula
-              </span>
-            </li>
+              </span> */}
+            {/* </li> */}
             <li>
               {/* {ContactData.data[0].mobile} */}
               Mobile:{" "}
-              <span className="text-yellow font-Bold">+(385) 98 263 136</span>
+              <span className="text-yellow font-Bold">+(385) 98 130 1691</span>
             </li>
             <li>
               {/* {ContactData.data[0].email_info} */}
               Email:{" "}
               <span className="font-Bold text-yellow">
-                villarelaxinfo@gmail.com
+                Ivanozegovic23@gmail.com
               </span>
             </li>
             <li>
