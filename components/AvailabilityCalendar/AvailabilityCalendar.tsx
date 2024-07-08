@@ -1,21 +1,26 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Calendar from "./index";
 import "./style.css";
 
-export const bookings = [
-  // {
-  //   from: new Date("05-01-2024"),
-  //   to: new Date("09-17-2024"),
-  //   middayCheckout: true,
-  // },
-];
+export interface IBooking {
+  from: Date;
+  to: Date;
+  middayCheckout: boolean;
+}
 
 type CalendarProps = {
   Accommodation_name: string;
+  bookings: IBooking[];
 };
 
-function AvailabilityCalendar({ Accommodation_name }: CalendarProps) {
+const [Bookings, setBookings] = useState<IBooking[]>([]);
+
+export const bookings = Bookings;
+
+function AvailabilityCalendar({ Accommodation_name, bookings }: CalendarProps) {
+  useEffect(() => setBookings(bookings), []);
   return (
     <>
       <Calendar bookings={bookings} Accommodation_name={Accommodation_name} />

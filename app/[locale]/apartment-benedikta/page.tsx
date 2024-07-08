@@ -32,6 +32,14 @@ function RoomLota() {
   const PricelistData = getPricelistData(localeActive);
   const PaymentConditionsData = getPaymentConditionsData(localeActive);
 
+  const bookings = [
+    {
+      from: new Date("05-01-2024"),
+      to: new Date("09-17-2024"),
+      middayCheckout: true,
+    },
+  ];
+
   function handleClose() {
     setShowFeatures(false);
   }
@@ -183,7 +191,10 @@ function RoomLota() {
           <h2 className="block text-center font-bold text-2xl text-dark_blue_black mb-6">
             {TitleData.data[0].title3}
           </h2>
-          <AvailabilityCalendar Accommodation_name="Apartment Benedikta" />
+          <AvailabilityCalendar
+            bookings={bookings}
+            Accommodation_name="Apartment Benedikta"
+          />
         </div>
       </div>
     </section>
