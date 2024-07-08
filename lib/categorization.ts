@@ -13,8 +13,8 @@ import hrData from "@/messages/hr.json";
 // import itData from "@/messages/it.json";
 
 export const Categorization: categorization[] = [
-  { value: "⭐⭐⭐⭐⭐" },
-  { value: "16 persons" },
+  { value: "⭐⭐⭐⭐" },
+  { value: "4 persons" },
   { value: "500 m²" },
   { value: "2000 m²" },
 ];
