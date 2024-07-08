@@ -11,10 +11,14 @@ export const bookings = [
   // },
 ];
 
-function AvailabilityCalendar() {
+type CalendarProps = {
+  Accommodation_name: string;
+};
+
+function AvailabilityCalendar({ Accommodation_name }: CalendarProps) {
   return (
     <>
-      <Calendar bookings={bookings} />
+      <Calendar bookings={bookings} Accommodation_name={Accommodation_name} />
     </>
   );
 }

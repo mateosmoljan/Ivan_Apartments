@@ -9,6 +9,7 @@ export type blockedDaysType = string[];
 export type ShowMonths = 12 | 4 | 2 | 1;
 
 export interface ICalendarPropTypes {
+  Accommodation_name?: string;
   bookings?: BookingType[];
   showNumberOfMonths?: ShowMonths;
   showKey?: boolean;

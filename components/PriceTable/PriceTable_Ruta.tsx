@@ -27,7 +27,7 @@ const rows = [
   createData("01.10. - 31.10.", 1000, 16, 4),
 ];
 
-export default function PriceTable() {
+export default function PriceTable_Ruta() {
   const localeActive = useLocale();
   const PriceTableData = getPriceTableData(localeActive);
   return (

@@ -19,6 +19,7 @@ import { useLocale } from "next-intl";
 import React, { useEffect, useState } from "react";
 import Markdown from "react-markdown";
 import { LotaGalleryLib } from "@/lib/Lota_gallery";
+import PriceTable_Lota from "@/components/PriceTable/PriceTable_Lota";
 
 function RoomLota() {
   const [showFeatures, setShowFeatures] = useState<boolean>(false);
@@ -142,7 +143,7 @@ function RoomLota() {
               <h2 className="font-bold text-2xl text-dark_blue_black mb-4">
                 {PricelistData.data[0].title}
               </h2>
-              {/* <PriceTable /> */}
+              <PriceTable_Lota />
               <p className="text-grey1 text-sm mt-4">
                 {PricelistData.data[0].subtitle}
               </p>
@@ -174,7 +175,7 @@ function RoomLota() {
           <h2 className="block text-center font-bold text-2xl text-dark_blue_black mb-6">
             {TitleData.data[0].title3}
           </h2>
-          <AvailabilityCalendar />
+          <AvailabilityCalendar Accommodation_name="Room Lota" />
         </div>
       </div>
     </section>
