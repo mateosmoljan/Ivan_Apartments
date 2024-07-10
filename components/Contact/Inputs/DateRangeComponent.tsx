@@ -76,7 +76,7 @@ function DataRangeComponent() {
 
   const getDisabledDates = (): Date[] => {
     const disabledRanges = [
-      { startDate: new Date("2024-05-02"), endDate: new Date("2024-09-16") },
+      { startDate: new Date("2024-05-02"), endDate: new Date("2024-05-02") },
     ];
 
     const disabledDates: Date[] = [...disabledDateArray]; // Include dynamically added dates
@@ -158,13 +158,13 @@ function DataRangeComponent() {
               moveRangeOnFirstSelection={false}
               ranges={state}
               className="relative bg-white z-20 "
-              months={2}
+              months={1}
               locale={enGB}
               direction={
                 calendarWidth === "horizontal" ? "horizontal" : "vertical"
               }
               rangeColors={["#B29600"]}
-              disabledDates={getDisabledDates()}
+              // disabledDates={getDisabledDates()}
               dateDisplayFormat="d.M.y"
             />
           </FormControl>

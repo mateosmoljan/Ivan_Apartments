@@ -179,7 +179,7 @@ function RoomRuta() {
             </div>
           </div>
         </div>
-        <div className="container py-10 mb-24">
+        {/* <div className="container py-10 mb-24">
           <h2 className="block text-center font-bold text-2xl text-dark_blue_black mb-6">
             {TitleData.data[0].title3}
           </h2>
@@ -187,7 +187,7 @@ function RoomRuta() {
             bookings={bookings}
             Accommodation_name="Room Ruta"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
