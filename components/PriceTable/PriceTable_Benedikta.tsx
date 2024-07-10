@@ -18,13 +18,13 @@ function createData(
 }
 
 const rows = [
-  createData("15.01. - 15.03.", 260, 3, 4),
-  createData("15.03. - 01.05.", 300, 3, 4),
-  createData("01.05. - 15.06.", 320, 3, 4),
-  createData("15.06. - 15.09.", 440, 3, 4),
-  createData("15.09. - 01.11.", 320, 3, 4),
-  createData("01.11. - 01.12.", 260, 3, 4),
-  createData("01.12. - 15.01.", 440, 3, 4),
+  createData("15.01. - 15.03.", 65, 2, 1),
+  createData("15.03. - 01.05.", 75, 2, 1),
+  createData("01.05. - 15.06.", 80, 2, 1),
+  createData("15.06. - 15.09.", 110, 2, 1),
+  createData("15.09. - 01.11.", 80, 2, 1),
+  createData("01.11. - 01.12.", 65, 2, 1),
+  createData("01.12. - 15.01.", 110, 2, 1),
 ];
 
 export default function PriceTable_Benedikta() {

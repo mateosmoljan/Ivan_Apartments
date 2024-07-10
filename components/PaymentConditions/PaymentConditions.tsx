@@ -13,12 +13,12 @@ function PaymentConditions() {
         <p>
           <Markdown>{PaymentConditionsData.data[0].des2}</Markdown>
         </p>
-        <p>
+        {/* <p>
           <Markdown>{PaymentConditionsData.data[0].des3}</Markdown>
         </p>
         <p>
           <Markdown>{PaymentConditionsData.data[0].des4}</Markdown>
-        </p>
+        </p> */}
         <p>
           <Markdown>{PaymentConditionsData.data[0].des5}</Markdown>
         </p>

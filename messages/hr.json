@@ -23,7 +23,7 @@
   },
   "Navigation": {
     "navlinks": [
-      "Apartman Lodwig",
+      "Apartman Ludwig",
       "Apartman Benedikta",
       "Soba Lota",
       "Soba Ruta",
@@ -36,9 +36,9 @@
 
   "HeaderSwiper": {
     "titles": [
-      "Ludwig Centar",
-      "Benedikt sa Parkingom",
-      "Ruta & Lota - Blizina Autobusa"
+      "Apartman Ludwig",
+      "Apartman Benedikta",
+      "Art Rooms Ruta & Lota"
     ],
     "descriptions": [
       "Doživite Zagreb iz prvog reda! Naš apartman Ludwig nalazi se u samom centru grada, idealan za istraživanje svih glavnih atrakcija.",
@@ -268,14 +268,14 @@
 
   "Pricelist": {
     "title": "Cjenik",
-    "subtitle": "*Cijena se odnosi na razdoblje od 4 noćenja u Eurima"
+    "subtitle": "*Cijena se odnosi na razdoblje od 1 noćenja u Eurima"
   },
   "Payment_conditions": {
     "subtitle": "UVJETI I ODREDBE",
     "title": "Uvjeti plaćanja i rezervacije",
     "des2": "Za osiguranje rezervacije obavezno je unaprijed platiti 30% od ukupne cijene izravno vlasniku smještaja, a preostalih 70% po dolasku u smještajnu jedinicu.",
-    "des3": "Povratni depozit od 500 eura je potreban ako je sve u redu.",
-    "des4": "Besplatno otkazivanje moguće je unutar tjedan dana nakon rezervacije (OSIM ZA LAST MINUTE REZERVACIJE, TADA JE ROK 48 SATI). Last-minute rezervacije se obavljaju dva tjedna prije planiranog boravka.",
+    "des3": "",
+    "des4": "",
     "des5": "Na zadnji dan boravka gosti su dužni napustiti smještaj do 10 sati kako bi se omogućilo drugim gostima prijavljivanje od 16 sati.",
     "des6": "Molimo obratite pažnju da kućni ljubimci nisu dozvoljeni u objektu.",
     "title2": "Načini plaćanja:"
@@ -321,7 +321,7 @@
       "name": "Ime",
       "email": "E-mail",
       "phone": "Telefon",
-      "home": "Kuća za odmor",
+      "home": "Apartman",
       "adults": "Odrasli",
       "children": "Djeca",
       "arrival": "Dolazak",

@@ -11,7 +11,7 @@ function About() {
     <section className="pt-20 Visit" id="about">
       <div className="container">
         <h1 className="flex justify-center font-arbutus text-3xl sm:text-4xl font-bold text-dark_blue_black">
-          Zagreb Center Apartments - Pula
+          Center Apartments - Zagreb
         </h1>
         <div className="pt-10">
           <Description />

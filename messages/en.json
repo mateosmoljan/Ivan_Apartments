@@ -23,7 +23,7 @@
   },
   "Navigation": {
     "navlinks": [
-      "Apartment Lodwig",
+      "Apartment Ludwig",
       "Apartment Benedikta",
       "Room Lota",
       "Room Ruta",
@@ -36,9 +36,9 @@
 
   "HeaderSwiper": {
     "titles": [
-      "Ludwig Center",
-      "Benedikt with Parking",
-      "Ruta & Lota - Bus Proximity"
+      "Apartment Ludwig",
+      "Apartment Benedikta",
+      "Art Rooms Ruta & Lota"
     ],
     "descriptions": [
       "Experience Zagreb from the front row! Our Ludwig apartment is located in the very center of the city, ideal for exploring all the main attractions.",
@@ -110,28 +110,28 @@
     "title": "We offer you 2 Apartments and 2 Rooms",
     "Ludwig": {
       "card_title": "Apartment Ludwig",
-      "card_des": "Accommodates up to 6 people",
+      "card_des": "Accommodates up to 2 people",
       "card_des2": "Price from",
       "card_des3": "per night",
       "money": "75 €"
     },
     "Benedikt": {
-      "card_title": "Apartment Benedikt",
-      "card_des": "Accommodates up to 4 people",
+      "card_title": "Apartment Benedikta",
+      "card_des": "Accommodates up to 2 people",
       "card_des2": "Price from",
       "card_des3": "per night",
       "money": "65 €"
     },
     "Lota": {
       "card_title": "Art room Lota",
-      "card_des": "Accommodates up to 3 people",
+      "card_des": "Accommodates up to 2 people",
       "card_des2": "Price from",
       "card_des3": "per night",
       "money": "60 €"
     },
     "Ruta": {
       "card_title": "Art room Ruta",
-      "card_des": "Accommodates up to 3 people",
+      "card_des": "Accommodates up to 2 people",
       "card_des2": "Price from",
       "card_des3": "per night",
       "money": "50 €"
@@ -141,7 +141,7 @@
     "subtitle": "PHOTO GALLERIES",
     "title": {
       "Ludwig": "Photo Gallery Apartment Ludwig",
-      "Benedikt": "Photo Gallery Apartment Benedikt",
+      "Benedikt": "Photo Gallery Apartment Benedikta",
       "Lota": "Photo Gallery Art room Lota",
       "Ruta": "Photo Gallery Art room Ruta"
     },
@@ -268,14 +268,14 @@
 
   "Pricelist": {
     "title": "Pricelist",
-    "subtitle": "*The price refers to a period of 4 nights in Euros"
+    "subtitle": "*The price refers to a period of 1 nights in Euros"
   },
   "Payment_conditions": {
     "subtitle": "TERMS AND CONDITIONS",
     "title": "Payment and Reservation Conditions",
     "des2": "To secure the reservation, a 30% advance payment of the total price must be made directly to the property owner, with the remaining 70% payable upon arrival at the accommodation unit.",
-    "des3": "A refundable deposit of 500 euros is required if everything is in order.",
-    "des4": "Free cancellation is possible within a week after booking (EXCEPT FOR LAST MINUTE RESERVATIONS, THEN THE DEADLINE IS 48 HOURS). Last-minute reservations are made two weeks before the planned stay.",
+    "des3": "",
+    "des4": "",
     "des5": "On the last day of stay, guests must leave the accommodation by 10 AM to allow other guests to check in from 4 PM.",
     "des6": "Please note that pets are not allowed on the premises.",
     "title2": "Payment Methods:"
@@ -321,7 +321,7 @@
       "name": "Name",
       "email": "Email",
       "phone": "Phone",
-      "home": "Holiday Home",
+      "home": "Apartment",
       "adults": "Adults",
       "children": "Children",
       "arrival": "Arrival",
