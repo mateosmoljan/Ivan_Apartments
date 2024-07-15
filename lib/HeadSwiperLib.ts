@@ -1,11 +1,16 @@
 import { StaticImageData } from "next/image";
 
-import one from "@/public/assets/images/Ludwig/39.jpg";
+import one from "@/public/assets/images/jelacica_desktop.jpeg";
 import two from "@/public/assets/images/Benedikta/21.jpg";
 import three from "@/public/assets/images/Lota/7.jpeg";
 
+import one1 from "@/public/assets/images/jelacica_mobile.jpg";
+import two2 from "@/public/assets/images/tomislav.jpg";
+import three3 from "@/public/assets/images/Lota/7.jpeg";
+
 type LocationData = {
-  src: StaticImageData;
+  src: string;
+  srcMobile: string;
   alt: string;
   title?: string;
   des?: string;
@@ -23,9 +28,21 @@ import hrData from "@/messages/hr.json";
 
 // Define image data
 const imageData: LocationData[] = [
-  { src: one, alt: "Ludwig Center" },
-  { src: two, alt: "Benedikt with Parking" },
-  { src: three, alt: "Ruta & Lota - Bus Proximity" },
+  {
+    src: "/assets/images/jelacica_desktop.jpeg",
+    srcMobile: "/assets/images/jelacica_mobile.jpg",
+    alt: "Ludwig Center",
+  },
+  {
+    src: "/assets/images/Benedikta/21.jpg",
+    srcMobile: "/assets/images/tomislav.jpg",
+    alt: "Benedikt with Parking",
+  },
+  {
+    src: "/assets/images/Lota/7.jpeg",
+    srcMobile: "/assets/images/Lota/7.jpeg",
+    alt: "Ruta & Lota - Bus Proximity",
+  },
   // Define other image data similarly
 ];
 
