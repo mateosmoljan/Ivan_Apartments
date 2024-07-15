@@ -52,16 +52,22 @@ export default function HeadSwiper() {
                   className="object-cover block h-screen w-full"
                 /> */}
                 <picture>
-                  <source media="(min-width: 768px)" srcSet={image.src} />
-                  <source media="(max-width: 767px)" srcSet={image.srcMobile} />
-                  <Image
+                  <source
+                    className="object-cover"
+                    media="(min-width: 768px)"
+                    srcSet={image.src}
+                  />
+                  <source
+                    className="object-cover"
+                    media="(max-width: 767px)"
+                    srcSet={image.srcMobile}
+                  />
+                  <img
                     src={image.src}
                     alt={image.alt}
                     width={1920}
                     height={1080}
-                    placeholder="blur"
-                    priority
-                    className="object-cover block h-screen w-full"
+                    className="object-cover  block h-screen w-full"
                   />
                 </picture>
                 <div className="left-1/20 right-1/20 md:left-auto md:right-auto md:mx-0 md:max-w-2xl z-20 absolute bottom-8 flex items-center justify-center flex-col bg-black bg-opacity-60 rounded-md p-8 gap-3">

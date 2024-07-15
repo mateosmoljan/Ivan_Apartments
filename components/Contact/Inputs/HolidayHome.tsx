@@ -41,11 +41,14 @@ function HolidayHome() {
         <MenuItem value={"Apartment Benedikta"} className="!pl-4">
           Apartment Benedikta
         </MenuItem>
-        <MenuItem value={"Room Lota"} className="!pl-4">
-          Room Lota
+        <MenuItem value={"Art Room Lota"} className="!pl-4">
+          Art Room Lota
         </MenuItem>
-        <MenuItem value={"Room Ruta"} className="!pl-4">
-          Room Ruta
+        <MenuItem value={"Art Room Ruta"} className="!pl-4">
+          Art Room Ruta
+        </MenuItem>
+        <MenuItem value={"Art Rooms Lota & Ruta"} className="!pl-4">
+          Art Rooms Lota & Ruta
         </MenuItem>
       </Select>
     </FormControl>

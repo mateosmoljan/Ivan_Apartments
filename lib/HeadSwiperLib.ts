@@ -35,7 +35,7 @@ const imageData: LocationData[] = [
   },
   {
     src: "/assets/images/Benedikta/21.jpg",
-    srcMobile: "/assets/images/tomislav.jpg",
+    srcMobile: "/assets/images/tomislav.jpeg",
     alt: "Benedikt with Parking",
   },
   {
