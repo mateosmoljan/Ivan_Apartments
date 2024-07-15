@@ -42,7 +42,7 @@ export default function HeadSwiper() {
           {headSwiperLib.images.map((image, index) => (
             <SwiperSlide key={index}>
               <div className="flex relative items-center justify-center h-full w-full">
-                <Image
+                {/* <Image
                   src={image.src}
                   alt={image.alt}
                   width={1920}
@@ -50,7 +50,7 @@ export default function HeadSwiper() {
                   placeholder="blur"
                   priority
                   className="object-cover block h-screen w-full"
-                />
+                /> */}
                 <picture>
                   <source media="(min-width: 768px)" srcSet={image.src} />
                   <source media="(max-width: 767px)" srcSet={image.srcMobile} />
