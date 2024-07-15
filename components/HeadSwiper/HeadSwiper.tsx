@@ -51,7 +51,7 @@ export default function HeadSwiper() {
                   priority
                   className="object-cover block h-screen w-full"
                 /> */}
-                <picture>
+                <picture className="block h-screen w-full">
                   <source
                     className="object-cover"
                     media="(min-width: 768px)"
