@@ -16,11 +16,9 @@ import hrData from "@/messages/hr.json";
 const linksData: LinksData[] = [
   { path: "/apartment-ludwig" },
   { path: "/apartment-benedikta" },
-  { path: "/room-lota" },
-  { path: "/room-ruta" },
+  { path: "/art-rooms" },
   { path: "/pricelist" },
   { path: "/photogallery" },
-  { path: "/environs" },
 
   // Define other image data similarly
 ];

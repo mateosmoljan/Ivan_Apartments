@@ -12,10 +12,11 @@ import { NextArrow, PrevArrow } from "./SwiperNavButtons";
 import { useShowcaseGallery2Context } from "./ShowcaseGallery2";
 import { useGalleryContext } from "../PropertyGallery/PropertyGallery";
 import { useFourGalleryContext } from "./FourGallery";
+import { DataObjectArtRooms } from "@/lib/Art_Rooms";
 
 type Props = {
   initIndex: number;
-  library: { src: StaticImageData; alt: string }[];
+  library: DataObjectArtRooms;
 };
 
 function Gallery({ initIndex, library }: Props) {
@@ -30,7 +31,7 @@ function Gallery({ initIndex, library }: Props) {
   } = useShowcaseGallery2Context();
   const { openGalleryContext, setOpenGalleryContext } = useGalleryContext();
   const [currentSlide, setCurrentSlide] = useState<number>(initIndex);
-  const totalImages = library.length;
+  const totalImages = library.images.length;
 
   const settings = {
     infinite: true,
@@ -102,18 +103,26 @@ function Gallery({ initIndex, library }: Props) {
               </div>
             </div>
             <Slider {...settings}>
-              {Library.map((image, index) => (
+              {Library.images.map((image, index) => (
                 <div key={index} className="my-auto">
                   <div className="sm:container !flex !items-center !justify-center relative image_gallery m-auto overflow-hidden">
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      width={960}
-                      height={540}
-                      placeholder="blur"
-                      priority
-                      className="object-contain object-center h-[300px] sm:h-[750px] sm:min-h-[500px] sm:min-w-[700px] min-w-full m-auto"
-                    />
+                    <div className="relative">
+                      <div className="absolute top-5 left-5 sm:left-1/2 z-20 after:bg-black">
+                        <h2 className="text-white font-titleBold text-xl">
+                          {image.title}
+                        </h2>
+                      </div>
+
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        width={960}
+                        height={540}
+                        placeholder="blur"
+                        priority
+                        className="object-contain object-center h-[300px] sm:h-[750px] sm:min-h-[500px] sm:min-w-[700px] min-w-full m-auto"
+                      />
+                    </div>
                   </div>
                 </div>
               ))}

@@ -58,8 +58,9 @@ function FourGallery({ mapButton, range }: Props) {
         >
           <div className="w-full flex flex-col ">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
-              {TouristImageData.slice(range?.start, range?.end).map(
-                (image, index) => (
+              {TouristImageData.images
+                .slice(range?.start, range?.end)
+                .map((image, index) => (
                   <div
                     key={index}
                     className="w-full h-full rounded-md flex relative"
@@ -74,8 +75,7 @@ function FourGallery({ mapButton, range }: Props) {
                       }
                     />
                   </div>
-                )
-              )}
+                ))}
             </div>
             {/* {mapButton && (
               <div className="flex justify-end">

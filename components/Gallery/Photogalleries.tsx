@@ -50,10 +50,7 @@ function Photogalleries() {
             </Link>
           </div>
           {openIndex && (
-            <Gallery
-              library={PropertyGalleryLib.images}
-              initIndex={activeIndex}
-            />
+            <Gallery library={PropertyGalleryLib} initIndex={activeIndex} />
           )}
         </AppContext.Provider>
       </div>

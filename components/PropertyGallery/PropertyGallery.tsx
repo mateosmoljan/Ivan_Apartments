@@ -12,10 +12,12 @@ import "./style.css";
 
 import { FreeMode, Navigation, Thumbs, EffectFade } from "swiper/modules";
 import Image from "next/image";
-import { DataObject, PropertyGalleryLib } from "@/lib/Ludwig_gallery";
+import { PropertyGalleryLib } from "@/lib/Ludwig_gallery";
+
 import { SwiperNavButtons } from "./SwiperNavButton";
 import Loading from "../Loading/Loading";
 import Gallery from "../Gallery/Gallery";
+import { DataObjectArtRooms } from "@/lib/Art_Rooms";
 
 export type AppContextType = {
   openGalleryContext: boolean;
@@ -30,7 +32,7 @@ export const AppContext = createContext<AppContextType>({
 export const useGalleryContext = () => useContext(AppContext);
 
 type props = {
-  property_gallery: DataObject;
+  property_gallery: DataObjectArtRooms;
 };
 
 export default function PropertyGallery({ property_gallery }: props) {
@@ -69,7 +71,12 @@ export default function PropertyGallery({ property_gallery }: props) {
             >
               {property_gallery.images.map((image, index) => (
                 <SwiperSlide key={index}>
-                  <div className="flex items-center justify-center w-full h-full cursor-pointer">
+                  <div className="relative flex items-center justify-center w-full h-full cursor-pointer">
+                    <div className="absolute top-2 left-2 z-20">
+                      <h2 className="text-white font-titleBold text-xl">
+                        {image.title}
+                      </h2>
+                    </div>
                     <Image
                       src={image.src}
                       alt={image.alt}
@@ -86,10 +93,7 @@ export default function PropertyGallery({ property_gallery }: props) {
               <SwiperNavButtons />
             </Swiper>
             {openGalleryContext && (
-              <Gallery
-                library={property_gallery.images}
-                initIndex={activeIndex}
-              />
+              <Gallery library={property_gallery} initIndex={activeIndex} />
             )}
             <Swiper
               onSwiper={setThumbsSwiper}

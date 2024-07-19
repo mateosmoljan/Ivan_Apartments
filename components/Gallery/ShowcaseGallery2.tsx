@@ -50,11 +50,11 @@ function ShowcaseGallery2() {
           }}
         >
           <div className="w-full flex flex-col sm:flex-row gap-3 sm:h-96 ">
-            {TouristImageData.length > 0 && (
+            {TouristImageData.images.length > 0 && (
               <div className=" rounded-md sm:w-1/2 w-full">
                 <Image
-                  src={TouristImageData[0].src}
-                  alt={TouristImageData[0].alt}
+                  src={TouristImageData.images[0].src}
+                  alt={TouristImageData.images[0].alt}
                   placeholder="blur"
                   className="cursor-pointer object-cover rounded-md block w-full h-full hover:opacity-90"
                   onClick={() => handleImageClick(0)}
@@ -62,7 +62,7 @@ function ShowcaseGallery2() {
               </div>
             )}
             <div className="grid grid-cols-2 sm:w-1/2 w-full gap-3">
-              {TouristImageData.slice(1, 5).map((image, index) => (
+              {TouristImageData.images.slice(1, 5).map((image, index) => (
                 <div
                   key={index}
                   className="w-full h-full rounded-md flex relative"

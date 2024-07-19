@@ -29,25 +29,27 @@ type LocationToVisitData = {
 };
 
 type DataObject = {
-  data: LocationToVisitData[];
+  images: LocationToVisitData[];
 };
 
-export const TouristImageData: LocationToVisitData[] = [
-  { src: image1, alt: "Aquarium Pula", image_title: "Aquarium Pula" },
-  { src: image2, alt: "NP Brijuni", image_title: "NP Brijuni" },
-  { src: image3, alt: "Aquacolors Porec", image_title: "Aquacolors Poreč" },
-  { src: image4, alt: "Arena Pula", image_title: "Arena Pula" },
-  { src: image5, alt: "Istralandia", image_title: "Istralandia" },
-  { src: image6, alt: "Beach", image_title: "Kamenjak" },
-  { src: image7, alt: "Aquacolors Porec" },
-  { src: image8, alt: "Aquacolors Porec" },
-  { src: image9, alt: "Aquacolors Porec" },
-  { src: image10, alt: "Aquarium Pula" },
-  { src: image11, alt: "Arena Pula" },
-  { src: image12, alt: "Beach" },
-  { src: image13, alt: "Beach" },
-  { src: image14, alt: "Island Kamenjak" },
-];
+export const TouristImageData: DataObject = {
+  images: [
+    { src: image1, alt: "Aquarium Pula", image_title: "Aquarium Pula" },
+    { src: image2, alt: "NP Brijuni", image_title: "NP Brijuni" },
+    { src: image3, alt: "Aquacolors Porec", image_title: "Aquacolors Poreč" },
+    { src: image4, alt: "Arena Pula", image_title: "Arena Pula" },
+    { src: image5, alt: "Istralandia", image_title: "Istralandia" },
+    { src: image6, alt: "Beach", image_title: "Kamenjak" },
+    { src: image7, alt: "Aquacolors Porec" },
+    { src: image8, alt: "Aquacolors Porec" },
+    { src: image9, alt: "Aquacolors Porec" },
+    { src: image10, alt: "Aquarium Pula" },
+    { src: image11, alt: "Arena Pula" },
+    { src: image12, alt: "Beach" },
+    { src: image13, alt: "Beach" },
+    { src: image14, alt: "Island Kamenjak" },
+  ],
+};
 
 const replaceTouristGuide = (
   data: LocationToVisitData[],
@@ -65,8 +67,8 @@ const replaceTouristGuide = (
 
 // Define the data object
 export const TouristGuideDataEn: DataObject = {
-  data: replaceTouristGuide(
-    TouristImageData,
+  images: replaceTouristGuide(
+    TouristImageData.images,
     enData.Tourist_Guide.subtitle,
     enData.Tourist_Guide.title,
     enData.Tourist_Guide.image_des
@@ -84,8 +86,8 @@ export const TouristGuideDataEn: DataObject = {
 // };
 
 export const TouristGuideDataHR: DataObject = {
-  data: replaceTouristGuide(
-    TouristImageData,
+  images: replaceTouristGuide(
+    TouristImageData.images,
     hrData.Tourist_Guide.subtitle,
     hrData.Tourist_Guide.title,
     hrData.Tourist_Guide.image_des

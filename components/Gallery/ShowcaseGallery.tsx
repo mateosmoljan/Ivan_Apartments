@@ -94,10 +94,7 @@ function ShowcaseGallery({ property_gallery, subtitle, title }: Props) {
           </div>
 
           {openIndexPropertyGallery && (
-            <Gallery
-              library={property_gallery.images}
-              initIndex={activeIndex}
-            />
+            <Gallery library={property_gallery} initIndex={activeIndex} />
           )}
         </AppContext.Provider>
       </div>
