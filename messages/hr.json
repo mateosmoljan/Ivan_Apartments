@@ -75,30 +75,30 @@
       "title": "Udaljenosti od Apartmana Ludwig",
       "button": "Prikaži kartu",
       "place": [
-        "Glavni željeznički kolodvor: ",
-        "Trg bana Jelačića: ",
-        "Botanički vrt: ",
-        "Zagrebačka katedrala: "
+        "Glavni željeznički kolodvor: **0.80 km**",
+        "Trg bana Jelačića: **0.00 km**",
+        "Botanički vrt: **1.00 km**",
+        "Zagrebačka katedrala: **0.60 km**"
       ]
     },
     "Benedikt": {
       "title": "Udaljenosti od Apartmana Benedikta",
       "button": "Prikaži kartu",
       "place": [
-        "Glavni željeznički kolodvor: ",
-        "King Tomislav Square: ",
-        "Arheološki muzej Zagreb: ",
-        "Botanički vrt Zagreb: "
+        "Glavni željeznički kolodvor: **0.20 km**",
+        "King Tomislav Square: **0.00 km**",
+        "Arheološki muzej Zagreb: **0.45 km**",
+        "Botanički vrt Zagreb: **1.00 km**"
       ]
     },
     "Lota_Ruta": {
       "title": "Udaljenosti od Art rooms Lota & Ruta",
       "button": "Prikaži kartu",
       "place": [
-        "Glavni autobusni kolodvor: ",
-        "Trg kralja Tomislava: ",
-        "Cvjetni trg: ",
-        "Muzej prekinutih veza Zagreb: "
+        "Glavni autobusni kolodvor: **0.40 km**",
+        "Trg kralja Tomislava: **1.50 km**",
+        "Cvjetni trg: **2.30 km**",
+        "Muzej prekinutih veza Zagreb: **3.00 km**"
       ]
     }
   },

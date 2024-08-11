@@ -76,30 +76,30 @@
       "title": "Distances from Apartment Ludwig",
       "button": "Show Map",
       "place": [
-        "Main Train Station: ",
-        "Ban Jelačić Square: ",
-        "Botanical Garden: ",
-        "Zagreb Cathedral: "
+        "Main Train Station: **0.80 km**",
+        "Ban Jelačić Square: **0.00 km**",
+        "Botanical Garden: **1.00 km**",
+        "Zagreb Cathedral: **0.60 km**"
       ]
     },
     "Benedikt": {
       "title": "Distances from Apartment Benedikta",
       "button": "Show Map",
       "place": [
-        "Main Train Station: ",
-        "King Tomislav Square: ",
-        "Archaeological Museum Zagreb: ",
-        "Botanical Garden Zagreb: "
+        "Main Train Station: **0.20 km**",
+        "King Tomislav Square: **0.00 km**",
+        "Archaeological Museum Zagreb: **0.45 km**",
+        "Botanical Garden Zagreb: **1.00 km**"
       ]
     },
     "Lota_Ruta": {
       "title": "Distances from Art rooms Lota & Ruta",
       "button": "Show Map",
       "place": [
-        "Main Bus Station: ",
-        "King Tomislav Square: ",
-        "Flower Square: ",
-        "Museum of Broken Relationships Zagreb: "
+        "Main Bus Station: **0.40 km**",
+        "King Tomislav Square: **1.50 km**",
+        "Flower Square: **2.30 km**",
+        "Museum of Broken Relationships Zagreb: **3.00 km**"
       ]
     }
   },
